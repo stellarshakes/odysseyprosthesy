@@ -2,7 +2,7 @@
   "name": "newapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://stellarshakes.github.io",
+  "homepage": "https://stellarshakes.github.io/odysseyprosthesy/",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.10.2",
