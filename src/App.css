@@ -1,8 +1,16 @@
 @import url("http://fonts.googleapis.com/css?family=Mansalva&display=swap");
 
 .App {
-  text-align: center;
-  font-family: 'Mansalva', cursive;
+  text-align: left;
+  font-family: 'Goudy Old Style', cursive;
+  padding-top: 100px;
+  padding-left: 160px;
+}
+
+div.p {
+
+/*I can't make the p div work :(*/
+
 }
 
 .poem2{
@@ -11,6 +19,22 @@
 
 .cycleSpan{
   background-color: aquamarine;
+}
+
+.theveil .cycleSpan{
+	background-color: rgba(170,200,255,0.1);
+	border-radius: 10px;
+	color: rgba(100,100,100,0.9);
+}
+
+.theveil .cycleSpan:hover{
+	background-color: rgba(20,30,100,0.3);
+	border-radius: 10px;
+	color: white;
+}
+
+.theveil {
+	line-height: 180%;
 }
 
 .paragraph {
