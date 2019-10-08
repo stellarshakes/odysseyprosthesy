@@ -5,6 +5,7 @@
   font-family: 'Goudy Old Style', cursive;
   padding-top: 100px;
   padding-left: 160px;
+  padding-bottom: 100px;
 }
 
 div.p {
@@ -19,6 +20,8 @@ div.p {
 
 .cycleSpan{
   background-color: aquamarine;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 
 .theveil .cycleSpan{

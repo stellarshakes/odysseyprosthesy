@@ -4,6 +4,7 @@ import CycleSpan from "../CycleSpan";
 function TheVeil() {
 	return (
 		<div className={'theveil'}>
+		<h2>The Veil</h2>
 		<p>
 			Father, Odysseus lies<br/>
 			concealed at the end of the world<br/>
