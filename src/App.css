@@ -4,8 +4,9 @@
   text-align: left;
   font-family: 'Goudy Old Style', cursive;
   padding-top: 100px;
-  padding-left: 160px;
+  padding-left: 250px;
   padding-bottom: 100px;
+  background-image: radial-gradient(at top left, #ffffff 50%, #eeeeff 100%);
 }
 
 div.p {
