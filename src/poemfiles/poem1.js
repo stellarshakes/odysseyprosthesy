@@ -3,7 +3,13 @@ import CycleSpan from "../CycleSpan";
 import {Link} from 'react-router-dom'
 
 function Poem1() {
-        return (
+
+    let divStyle = {
+        color: 'white',
+        backgroundColor: 'black',
+    };
+
+    return (
         <div className={"poem1"}>
             this is poem 1
             <Link to={"/poem2"}>
@@ -12,10 +18,10 @@ function Poem1() {
                 </button>
             </Link>
             <p className={"paragraph"}>
-                this is a Cycle span <CycleSpan entries={["red", "carrot","ben", "tank"]}/>
+                this is a Cycle span <CycleSpan entries={["red", "carrot", "ben", "tank"]}/>
             </p>
-            <p>
-                this is a brand new cycle span <CycleSpan entries={["red", "carrot","ben", "tank"]}/>
+            <p style={divStyle}>
+                this is a brand new cycle span <CycleSpan entries={["red", "carrot", "ben", "tank"]}/>
             </p>
         </div>
     )
