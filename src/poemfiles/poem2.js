@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 
 function Poem1() {
     return(
-        <div>
+        <div className="poem2">
             this is poem 2
             <Link to={'/poem3'}>
                 <button>

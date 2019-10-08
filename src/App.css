@@ -1,3 +1,26 @@
+@import url("http://fonts.googleapis.com/css?family=Mansalva&display=swap");
+
 .App {
   text-align: center;
+  font-family: 'Mansalva', cursive;
+}
+
+.poem2{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.cycleSpan{
+  background-color: aquamarine;
+}
+
+.paragraph {
+  background-color: antiquewhite;
+}
+
+.poem1 .cycleSpan{
+  background-color: blue;
+}
+
+.poem1 .paragraph .cycleSpan {
+  background-color: red;
 }
