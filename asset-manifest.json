@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/odysseyprosthesy/static/css/main.87c93dde.chunk.css",
-    "main.js": "/odysseyprosthesy/static/js/main.ba37df82.chunk.js",
-    "main.js.map": "/odysseyprosthesy/static/js/main.ba37df82.chunk.js.map",
+    "main.css": "/odysseyprosthesy/static/css/main.b650ae33.chunk.css",
+    "main.js": "/odysseyprosthesy/static/js/main.27c3b39f.chunk.js",
+    "main.js.map": "/odysseyprosthesy/static/js/main.27c3b39f.chunk.js.map",
     "runtime-main.js": "/odysseyprosthesy/static/js/runtime-main.3181cd36.js",
     "runtime-main.js.map": "/odysseyprosthesy/static/js/runtime-main.3181cd36.js.map",
-    "static/js/2.5bc5da43.chunk.js": "/odysseyprosthesy/static/js/2.5bc5da43.chunk.js",
-    "static/js/2.5bc5da43.chunk.js.map": "/odysseyprosthesy/static/js/2.5bc5da43.chunk.js.map",
+    "static/js/2.600d6ffb.chunk.js": "/odysseyprosthesy/static/js/2.600d6ffb.chunk.js",
+    "static/js/2.600d6ffb.chunk.js.map": "/odysseyprosthesy/static/js/2.600d6ffb.chunk.js.map",
     "index.html": "/odysseyprosthesy/index.html",
-    "precache-manifest.b3a7ed7602c9c13ceda7a5acdd7da5b7.js": "/odysseyprosthesy/precache-manifest.b3a7ed7602c9c13ceda7a5acdd7da5b7.js",
+    "precache-manifest.da47e4bafd298e4851ba3f0decf2bde6.js": "/odysseyprosthesy/precache-manifest.da47e4bafd298e4851ba3f0decf2bde6.js",
     "service-worker.js": "/odysseyprosthesy/service-worker.js",
-    "static/css/main.87c93dde.chunk.css.map": "/odysseyprosthesy/static/css/main.87c93dde.chunk.css.map"
+    "static/css/main.b650ae33.chunk.css.map": "/odysseyprosthesy/static/css/main.b650ae33.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.3181cd36.js",
-    "static/js/2.5bc5da43.chunk.js",
-    "static/css/main.87c93dde.chunk.css",
-    "static/js/main.ba37df82.chunk.js"
+    "static/js/2.600d6ffb.chunk.js",
+    "static/css/main.b650ae33.chunk.css",
+    "static/js/main.27c3b39f.chunk.js"
   ]
 }
