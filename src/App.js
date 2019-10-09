@@ -23,7 +23,10 @@ function App() {
                 </Route>
                 <Route path={'/despair'}>
                     <Despair/>
-                </Route>                
+                </Route>
+                <Route path={'/halithersesprophecy'}>
+                    <HalithersesProphecy/>
+                </Route>
                 <Route path={'/poem2'}>
                     <Poem2/>
                 </Route>
