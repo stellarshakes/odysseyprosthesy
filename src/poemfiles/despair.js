@@ -3,7 +3,7 @@ import CycleSpan from "../CycleSpan";
 
 function Despair() {
         return (
-        <div className={'despair'}>
+        <div className='despair' className='setPenelope'>
         	<h2>Despair</h2>
             <p>
             	My noble father<br/>

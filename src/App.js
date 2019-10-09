@@ -3,6 +3,7 @@ import './App.css';
 import TheVeil from './poemfiles/theveil';
 import Phemios from './poemfiles/phemios';
 import Despair from './poemfiles/despair';
+import HalithersesProphecy from './poemfiles/halithersesprophecy';
 import Poem1 from './poemfiles/poem1';
 import Poem2 from './poemfiles/poem2';
 import Poem3 from './poemfiles/poem3';
