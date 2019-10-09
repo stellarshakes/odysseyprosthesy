@@ -1,12 +1,12 @@
-@import url("http://fonts.googleapis.com/css?family=Mansalva&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Mansalva&display=swap");
 
 .App {
   text-align: left;
   font-family: 'Goudy Old Style', cursive;
-  padding-top: 100px;
-  padding-left: 250px;
-  padding-bottom: 100px;
-  line-height: 180%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  /*line-height: 180%;*/
 }
 
 div.p {
@@ -85,6 +85,47 @@ rgba(179,0,255,0.6);
 
 .theveil {
 	background-image: radial-gradient(at top left, #ffffff 50%, #eeeeff 100%);
+  background-color: lightgrey;
+  border-radius: 10px;
+  padding-left: 4px;
+  padding-right: 4px;
+  color: rgba(100,100,100,0.9);
+}
+
+.cycleSpan:hover{
+  background-color: grey;
+  color: white;
+}
+
+.setPenelope .cycleSpan{
+	background-color: white;
+	text-decoration: underline;
+	text-decoration-color: rgba(235,0,42,0.6);
+}
+
+.setPenelope .cycleSpan:hover{
+	background-color: rgba(235,0,42,0.6);
+	background-color: rgba(255,220,225,0.3);
+	color: black;
+	text-decoration: none;
+}
+
+.setOdysseus {
+    background-color: blue;
+}
+
+.setOdysseus .cycleSpan{
+	background-color: rgba(170,200,255,0.2);
+	color: rgba(100,100,100,0.9);
+}
+
+.setOdysseus .cycleSpan:hover{
+	background-color: rgba(0,130,250,0.6);
+	color: white;
+}
+
+.theveil {
+	background-image: radial-gradient(at top left, #ffffff 50%, #eeeeff 100%);
 }
 
 .paragraph {
@@ -97,7 +138,4 @@ rgba(179,0,255,0.6);
 
 .poem1 .paragraph .cycleSpan {
   background-color: red;
-}
-p {
-
 }

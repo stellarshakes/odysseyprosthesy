@@ -11,6 +11,8 @@
     "react-scripts": "3.2.0"
   },
   "scripts": {
+    "pid": "netstat -ano | findstr :3000",
+    "taskkill": "TASKKILL //PID //F",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
