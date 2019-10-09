@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b6f81793a4ed9f912b1de08eef7eca39",
+    "revision": "6a706fd70a9de64b0f5be53d80d3ef2b",
     "url": "/odysseyprosthesy/index.html"
   },
   {
-    "revision": "363bf0f3d9f1aef8c876",
+    "revision": "8cf226e6cf8457076ff4",
     "url": "/odysseyprosthesy/static/css/main.b650ae33.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/odysseyprosthesy/static/js/2.a16ec906.chunk.js"
   },
   {
-    "revision": "363bf0f3d9f1aef8c876",
-    "url": "/odysseyprosthesy/static/js/main.dcc1a5b7.chunk.js"
+    "revision": "8cf226e6cf8457076ff4",
+    "url": "/odysseyprosthesy/static/js/main.1f8c7e2c.chunk.js"
   },
   {
     "revision": "be62152d445b5a85dec8",

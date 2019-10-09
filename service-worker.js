@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/odysseyprosthesy/precache-manifest.33667cce89d12bf07dc7aa7a786148af.js"
+  "/odysseyprosthesy/precache-manifest.d0f762052c040db24a17cb0f7543dc60.js"
 );
 
 self.addEventListener('message', (event) => {
