@@ -1,5 +1,4 @@
 import React from 'react'
-import CycleSpan from "../CycleSpan";
 
 function HalithersesProphecy() {
         return (

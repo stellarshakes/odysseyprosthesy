@@ -1,5 +1,5 @@
 import React from 'react'
-import CycleSpan from "../CycleSpan";
+import {Link} from 'react-router-dom'
 
 function Despair() {
         return (
@@ -7,7 +7,9 @@ function Despair() {
         	<h2>Despair</h2>
             <p>
             	My noble father<br/>
-				if he ever was<br/>
+            	<Link to={"/babytelemachos"}>
+                if he ever was
+            	</Link><br/>
 				lies somewhere in the sea, lies somewhere dead<br/>
 				and in his place are suitors<br/>
 				rich fine young men who said<br/>
