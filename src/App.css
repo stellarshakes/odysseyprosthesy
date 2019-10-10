@@ -1,35 +1,50 @@
 @import url("https://fonts.googleapis.com/css?family=Mansalva&display=swap");
 
 .App {
-  text-align: left;
-  font-family: 'Goudy Old Style', cursive;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-  /*line-height: 180%;*/
+    text-align: left;
+    font-family: 'Goudy Old Style', cursive;
+    line-height: 180%;
+}
+
+.text-button {
+    border: none;
+    padding: 3px 0;
+    background-color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.text-button:hover {
+    background: #eee;
 }
 
 div.p {
 
-/*I can't make the p div work :(*/
+    /*I can't make the p div work :(*/
 
 }
 
-.poem2{
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+.poem2 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
-.cycleSpan{
-  background-color: lightgrey;
-  border-radius: 10px;
-  padding-left: 4px;
-  padding-right: 4px;
-  color: rgba(100,100,100,0.9);
+.cycleSpan {
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+    color: rgba(100, 100, 100, 0.9);
 }
 
-.cycleSpan:hover{
-  background-color: grey;
-  color: white;
+.cycleSpan:hover {
+    background-color: grey;
+    color: white;
 }
 
 .link {
@@ -97,45 +112,40 @@ rgba(179,0,255,0.6);
   color: white;
 }
 
-.setPenelope .cycleSpan{
-	background-color: white;
-	text-decoration: underline;
-	text-decoration-color: rgba(235,0,42,0.6);
+.setPenelope .cycleSpan {
+    background-color: white;
+    text-decoration: underline;
+    text-decoration-color: rgba(235, 0, 42, 0.6);
 }
 
-.setPenelope .cycleSpan:hover{
-	background-color: rgba(235,0,42,0.6);
-	background-color: rgba(255,220,225,0.3);
-	color: black;
-	text-decoration: none;
+.setPenelope .cycleSpan:hover {
+    background-color: rgba(255, 220, 225, 0.3);
+    color: black;
+    text-decoration: none;
 }
 
-.setOdysseus {
-    background-color: blue;
+.setOdysseus .cycleSpan {
+    background-color: rgba(170, 200, 255, 0.2);
+    color: rgba(100, 100, 100, 0.9);
 }
 
-.setOdysseus .cycleSpan{
-	background-color: rgba(170,200,255,0.2);
-	color: rgba(100,100,100,0.9);
-}
-
-.setOdysseus .cycleSpan:hover{
-	background-color: rgba(0,130,250,0.6);
-	color: white;
+.setOdysseus .cycleSpan:hover {
+    background-color: rgba(0, 130, 250, 0.6);
+    color: white;
 }
 
 .theveil {
-	background-image: radial-gradient(at top left, #ffffff 50%, #eeeeff 100%);
+    background-image: radial-gradient(at top left, #ffffff 50%, #eeeeff 100%);
 }
 
 .paragraph {
-  background-color: antiquewhite;
+    background-color: antiquewhite;
 }
 
-.poem1 .cycleSpan{
-  background-color: blue;
+.poem1 .cycleSpan {
+    background-color: blue;
 }
 
 .poem1 .paragraph .cycleSpan {
-  background-color: red;
+    background-color: red;
 }
