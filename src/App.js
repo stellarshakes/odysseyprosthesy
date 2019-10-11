@@ -6,6 +6,10 @@ import Despair from './poemfiles/despair';
 import HalithersesProphecy from './poemfiles/halithersesprophecy';
 import BabyTelemachos from './poemfiles/babytelemachos';
 import Odysseus from './poemfiles/odysseus';
+import PenelopesShroud from './poemfiles/penelopesshroud';
+import TelemachosLeaves from './poemfiles/telemachosleaves';
+import Penelope from './poemfiles/penelope';
+import Helen from './poemfiles/helen';
 
 import Poem1 from './poemfiles/poem1';
 import Poem2 from './poemfiles/poem2';
@@ -35,6 +39,18 @@ function App() {
                 </Route>
                 <Route path={'/odysseus'}>
                     <Odysseus/>
+                </Route>
+                <Route path={'/penelopesshroud'}>
+                    <PenelopesShroud/>
+                </Route>
+                <Route path={'/telemachosleaves'}>
+                    <TelemachosLeaves/>
+                </Route>
+                <Route path={'/penelope'}>
+                    <Penelope/>
+                </Route>
+                <Route path={'/helen'}>
+                    <Helen/>
                 </Route>
                 <Route path={'/poem2'}>
                     <Poem2/>

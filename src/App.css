@@ -44,10 +44,15 @@ div.p {
 }
 
 .setPenelope .cycleSpan:hover{
-	background-color: rgba(235,0,42,0.6);
 	background-color: rgba(255,220,225,0.3);
 	color: black;
 	text-decoration: none;
+}
+
+.setPenelope .hovertext {
+	border-bottom-style: dotted;
+  	border-bottom-color: rgba(235,0,42,0.6);
+  	border-bottom-width: 2px;
 }
 
 .setOdysseus .cycleSpan{
@@ -58,6 +63,24 @@ div.p {
 .setOdysseus .cycleSpan:hover{
 	background-color: rgba(0,130,250,0.6);
 	color: white;
+}
+
+/* Telemachos purple
+correct for cyclespan underlines
+adjust in google colour picker for shades
+rgba(179,0,255,0.6);
+*/
+
+.setTelemachos .hovertext{
+	border-bottom-style: dotted;
+  	border-bottom-color: rgba(179,0,255,0.6);
+  	border-bottom-width: 1px;
+}
+
+.setTelemachos h2 .hovertext{
+	border-bottom-style: dotted;
+  	border-bottom-color: rgba(179,0,255,0.6);
+  	border-bottom-width: 2px;
 }
 
 .theveil {

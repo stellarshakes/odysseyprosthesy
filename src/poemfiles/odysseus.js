@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 function Odysseus() {
         return (
-        <div className='Odysseus'>
+        <div className='Odysseus' className='setOdysseus'>
             <h2>Odysseus</h2>
             <p>
            		My reputation is of savage air<br/>
