@@ -4,6 +4,7 @@ import TheVeil from './poemfiles/theveil';
 import Phemios from './poemfiles/phemios';
 import Despair from './poemfiles/despair';
 import HalithersesProphecy from './poemfiles/halithersesprophecy';
+import BabyTelemachos from './poemfiles/babytelemachos';
 import Poem1 from './poemfiles/poem1';
 import Poem2 from './poemfiles/poem2';
 import Poem3 from './poemfiles/poem3';
@@ -26,6 +27,9 @@ function App() {
                 </Route>
                 <Route path={'/halithersesprophecy'}>
                     <HalithersesProphecy/>
+                </Route>
+                <Route path={'/babytelemachos'}>
+                    <BabyTelemachos/>
                 </Route>
                 <Route path={'/poem2'}>
                     <Poem2/>

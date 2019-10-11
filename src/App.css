@@ -32,6 +32,11 @@ div.p {
   color: white;
 }
 
+.link {
+	color: red;
+	text-decoration: none;
+}
+
 .setPenelope .cycleSpan{
 	background-color: white;
 	text-decoration: underline;

@@ -7,9 +7,10 @@ function Despair() {
         	<h2>Despair</h2>
             <p>
             	My noble father<br/>
+            	<div className='link'>
             	<Link to={"/babytelemachos"}>
                 if he ever was
-            	</Link><br/>
+            	</Link></div><br/>
 				lies somewhere in the sea, lies somewhere dead<br/>
 				and in his place are suitors<br/>
 				rich fine young men who said<br/>
