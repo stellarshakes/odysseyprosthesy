@@ -7,7 +7,7 @@ function Penelope() {
 		<div className='penelope' className='setPenelope'>
 		<h2>Penelope</h2>
 		<p>
-			<a className='hovertext' title='lelolelele'>I light a vigil</a><br/>
+			I light a vigil<br/>
 			to watch over<br/>
 			<br/>
 			Some god sends a storm wind<br/>
