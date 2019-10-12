@@ -1,8 +1,7 @@
 import React from 'react'
 import {Link} from "react-router-dom";
 import StopCycleSpan from "./StopCycleSpan";
-
-function NavBar(){
+function NavBar() {
     const navStyle = {
         flexDirection: "row",
         justifyContent: "flex-start",
@@ -11,39 +10,59 @@ function NavBar(){
 
     return (
         <nav style={navStyle}>
-            <StopCycleSpan entries={[
-                "FIrst entry",
-                "more entries",
-                "final stopping entry"
-            ]} className={"cycleSpan"}/>
-            <Link to={"/"}>
+            <Link to={'/theveil'}>
                 <button>
-                    Home
+                    TheVeil
                 </button>
             </Link>
-            <Link to={"/babytelemachos"}>
+            <Link to={'/phemios'}>
                 <button>
-                    babytelemachos
+                    Phemios
                 </button>
             </Link>
-            <Link to={"/despair"}>
+            <Link to={'/despair'}>
                 <button>
-                    despair
+                    Despair
                 </button>
             </Link>
-            <Link to={"/halithersesprophecy"}>
+            <Link to={'/halithersesprophecy'}>
                 <button>
-                    halithersesprophecy
+                    HalithersesProphecy
                 </button>
             </Link>
-            <Link to={"/phemios"}>
+            <Link to={'/babytelemachos'}>
                 <button>
-                    phemios
+                    BabyTelemachos
                 </button>
             </Link>
-            <Link to={"/theveil"}>
+            <Link to={'/odysseus'}>
                 <button>
-                    theveil
+                    Odysseus
+                </button>
+            </Link>
+            <Link to={'/penelopesshroud'}>
+                <button>
+                    PenelopesShroud
+                </button>
+            </Link>
+            <Link to={'/telemachosleaves'}>
+                <button>
+                    TelemachosLeaves
+                </button>
+            </Link>
+            <Link to={'/penelope'}>
+                <button>
+                    Penelope
+                </button>
+            </Link>
+            <Link to={'/helen'}>
+                <button>
+                    Helen
+                </button>
+            </Link>
+            <Link to={'/'}>
+                <button>
+                    IntroPage
                 </button>
             </Link>
         </nav>

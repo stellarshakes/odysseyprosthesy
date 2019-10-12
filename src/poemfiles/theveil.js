@@ -1,11 +1,13 @@
 import React from 'react'
 import CycleSpan from "../components/CycleSpan";
+import StopCycleSpan from "../components/StopCycleSpan";
 import {Link} from 'react-router-dom'
 
 function TheVeil() {
     return (
-        <div className='theveil setOdysseus'>
+        <div className='poem theveil setOdysseus'>
             <h2>The Veil</h2>
+
             Father, Odysseus lies<br/>
             concealed at the end of the world<br/>
             <br/>
@@ -16,22 +18,21 @@ function TheVeil() {
             the archaism of the gilt prison<br/>
             Ogygia<br/>
             the Veil clings to him
-            <blockquote>
-                the <CycleSpan entries={[
-                "various-minded",
-                "resourceful",
-                "complicated",
-                "ingenious",
-                "polytropic"]}/> peripatetic<br/> <CycleSpan entries={[
-                "two decades in tears",
-                "two decades in solitude",
-                "facing five more decades of the last two decades"]}/></blockquote>
+            <blockquote>the
+                <StopCycleSpan entries={[
+                    "various-minded", "resourceful", "complicated", "ingenious", "polytropic"
+                ]} className={"cycleSpan"}/>
+                <CycleSpan
+                    entries={["various-minded", "resourceful", "complicated", "ingenious", "polytropic"]}/> peripatetic<br/>
+
+                <CycleSpan entries={["two decades in tears",
+                    "two decades in solitude",
+                    "facing five more decades of the last two decades"]}/></blockquote>
             like night clings to shadows<br/>
             <br/>
             Father, extinguish the darkness<br/>
             send him uncovered to<br/>
-            <CycleSpan entries={[
-                "Penelope, who kneels before blind gods",
+            <CycleSpan entries={["Penelope, who kneels before blind gods",
                 "Telemachos, whose father is absence",
                 "Argos, who lives with wretched resolution"]}/><br/>
             <br/>

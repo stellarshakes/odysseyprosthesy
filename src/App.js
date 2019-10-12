@@ -53,6 +53,7 @@ function App() {
                     <IntroPage/>
                 </Route>
             </Switch>
+            <NavBar/>
         </div>
     );
 }
