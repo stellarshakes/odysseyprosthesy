@@ -17,7 +17,6 @@ import NavBar from "./components/NavBar";
 function App() {
     return (
         <div className="App">
-            <NavBar/>
             <Switch>
                 <Route path={'/theveil'}>
                     <TheVeil/>

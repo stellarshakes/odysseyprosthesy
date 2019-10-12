@@ -36,7 +36,6 @@ function HalithersesProphecy() {
                 two little birds visited<br/>
                 screaming bloody vindications
             </p>
-            <NavBar/>
         </div>
     )
 }
