@@ -1,10 +1,10 @@
 import React from 'react'
-import CycleSpan from "../CycleSpan";
+import CycleSpan from "../components/CycleSpan";
 import {Link} from 'react-router-dom'
 
 function TelemachosLeaves() {
         return (
-        <div className='TelemachosLeaves' className='setTelemachos'>
+        <div className='TelemachosLeaves setTelemachos'>
             <h2>Telemachos Leaves</h2>
             <p>
             	A divine visitation<br/>

@@ -1,10 +1,10 @@
 import React from 'react'
-import CycleSpan from "../CycleSpan";
+import CycleSpan from "../components/CycleSpan";
 import {Link} from 'react-router-dom'
 
 function Odysseus() {
         return (
-        <div className='Odysseus' className='setOdysseus'>
+        <div className='Odysseus setOdysseus'>
             <h2>Odysseus</h2>
             <p>
            		My reputation is of savage air<br/>

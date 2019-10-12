@@ -1,10 +1,9 @@
 import React from 'react'
-import CycleSpan from "../CycleSpan";
 import {Link} from 'react-router-dom'
 
 function Helen() {
 	return (
-		<div className='helen' className='setPenelope' className='setTelemachos'>
+		<div className='helen setPenelope setTelemachos'>
 		<h2>
 			<a className='hovertext' title='penelope writes helen'>
 			Telemachos Meets Helen

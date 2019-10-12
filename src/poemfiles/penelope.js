@@ -1,10 +1,10 @@
 import React from 'react'
-import CycleSpan from "../CycleSpan";
+import CycleSpan from "../components/CycleSpan";
 import {Link} from 'react-router-dom'
 
 function Penelope() {
 	return (
-		<div className='penelope' className='setPenelope'>
+		<div className='penelope setPenelope'>
 		<h2>Penelope</h2>
 		<p>
 			I light a vigil<br/>
