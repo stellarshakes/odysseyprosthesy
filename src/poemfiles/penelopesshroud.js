@@ -1,10 +1,11 @@
 import React from 'react'
 import CycleSpan from "../components/CycleSpan";
 import {Link} from 'react-router-dom'
+import NavBar from "../components/NavBar";
 
 function PenelopesShroud() {
         return (
-        <div className='PenelopesShroud setPenelope'>
+        <div className='poem PenelopesShroud setPenelope'>
             <h2>Penelope's Shroud</h2>
             <p>
            		I am no clear lyre<br/>
@@ -42,6 +43,7 @@ function PenelopesShroud() {
 				They reach for an anchor<br/>
 				and are choked by fresh morning with droplets
             </p>
+            <NavBar/>
         </div>
     )
 }

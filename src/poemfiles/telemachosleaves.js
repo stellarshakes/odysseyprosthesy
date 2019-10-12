@@ -1,10 +1,11 @@
 import React from 'react'
 import CycleSpan from "../components/CycleSpan";
 import {Link} from 'react-router-dom'
+import NavBar from "../components/NavBar";
 
 function TelemachosLeaves() {
         return (
-        <div className='TelemachosLeaves setTelemachos'>
+        <div className='poem TelemachosLeaves setTelemachos'>
             <h2>Telemachos Leaves</h2>
             <p>
             	A divine visitation<br/>
@@ -32,6 +33,7 @@ function TelemachosLeaves() {
 				<br/>
 				I must bring something home
             </p>
+            <NavBar/>
         </div>
     )
 }

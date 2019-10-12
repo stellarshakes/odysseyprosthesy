@@ -1,10 +1,11 @@
 import React from 'react'
 import CycleSpan from "../components/CycleSpan";
 import {Link} from 'react-router-dom'
+import NavBar from "../components/NavBar";
 
 function Penelope() {
 	return (
-		<div className='penelope setPenelope'>
+		<div className='poem penelope setPenelope'>
 		<h2>Penelope</h2>
 		<p>
 			I light a vigil<br/>
@@ -25,6 +26,7 @@ function Penelope() {
 			My turn is surely next<br/>
 			to either leave or finally awaken
 		</p>
+		<NavBar/>
 		</div>
 	)
 }

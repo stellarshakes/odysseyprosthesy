@@ -1,10 +1,11 @@
 import React from 'react'
 import CycleSpan from "../components/CycleSpan";
 import {Link} from 'react-router-dom'
+import NavBar from "../components/NavBar";
 
 function BabyTelemachos() {
         return (
-        <div className='babytelemachos setOdysseus'>
+        <div className='poem babytelemachos setOdysseus'>
             <h2>Baby Telemachos</h2>
             <p>
                 your mother last let me hold you<br/>
@@ -36,6 +37,7 @@ function BabyTelemachos() {
                 twenty years in the making<br/>
                 and not know it
             </p>
+            <NavBar/>
         </div>
     )
 }

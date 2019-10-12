@@ -1,10 +1,11 @@
 import React from 'react'
 import TextLink from "../components/TextLink";
 import {Link} from 'react-router-dom'
+import NavBar from "../components/NavBar";
 
 function Despair() {
         return (
-        <div className='despair setPenelope'>
+        <div className='poem despair setPenelope'>
         	<h2>Despair</h2>
             <p>
             	My noble father<br/>
@@ -39,6 +40,7 @@ function Despair() {
 				<br/>
 				I really need him home
             </p>
+            <NavBar/>
         </div>
     )
 }

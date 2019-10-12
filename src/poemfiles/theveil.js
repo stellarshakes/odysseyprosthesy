@@ -2,10 +2,11 @@ import React from 'react'
 import CycleSpan from "../components/CycleSpan";
 import StopCycleSpan from "../components/StopCycleSpan";
 import {Link} from 'react-router-dom'
+import NavBar from "../components/NavBar";
 
 function TheVeil() {
 	return (
-		<div className='theveil setOdysseus'>
+		<div className='poem theveil setOdysseus'>
 		<h2>The Veil</h2>
 		<p>
 			Father, Odysseus lies<br/>
@@ -44,6 +45,7 @@ function TheVeil() {
                 →
             </Link>
 		</p>
+		<NavBar/>
 		</div>
 	)
 }

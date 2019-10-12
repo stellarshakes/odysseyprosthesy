@@ -8,21 +8,28 @@
     align-items: center;
     text-align: left;
     */
-    font-family: 'Goudy Old Style', cursive;
+    font-family: 'Goudy Old Style';
     line-height: 180%;
-    padding-top: 80px;
-    padding-left: 180px;
 }
 
 @media screen and (max-width: 600px) {
   .App {
-    font-family: 'Goudy Old Style', cursive;
+    font-family: 'Goudy Old Style';
     line-height: 180%;
+  }
+}
+
+.poem {
+	padding-top: 80px;
+    padding-left: 180px;
+}
+
+@media screen and (max-width: 600px) {
+  .poem {
     padding-top: 40px;
     padding-left: 90px;
   }
 }
-
 
 .text-button {
     border: none;

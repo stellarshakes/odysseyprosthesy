@@ -16,7 +16,6 @@ import Poem2 from './poemfiles/poem2';
 import Poem3 from './poemfiles/poem3';
 import IntroPage from "./components/introPage";
 import {Switch, Route} from 'react-router-dom'
-import NavBar from "./components/NavBar";
 
 function App() {
     return (
@@ -64,10 +63,7 @@ function App() {
                 <Route path={'/'}>
                     <IntroPage/>
                 </Route>
-            </Switch>
-
-            <NavBar/>
-            
+            </Switch>   
         </div>
     );
 }

@@ -1,10 +1,10 @@
 import React from 'react'
 import CycleSpan from "../components/CycleSpan";
-
+import NavBar from "../components/NavBar";
 
 function Phemios() {
         return (
-		<div className='phemios setPenelope'>
+		<div className='poem phemios setPenelope'>
 			<h2>Penelope Listens to Phemios</h2>
 			<p>
 			He will not stop<br/>
@@ -37,6 +37,7 @@ function Phemios() {
 			<br/>
 			but I will not find it here<br/>
 			</p>
+			<NavBar/>
 		</div>
 	)
 }

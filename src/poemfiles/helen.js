@@ -1,9 +1,10 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import NavBar from "../components/NavBar";
 
 function Helen() {
 	return (
-		<div className='helen setPenelope setTelemachos'>
+		<div className='poem helen setPenelope setTelemachos'>
 		<h2>
 			<a className='hovertext' title='penelope writes helen'>
 			Telemachos Meets Helen
@@ -37,6 +38,7 @@ function Helen() {
 			men's sorrows
 			</a><br/>
 		</p>
+		<NavBar/>
 		</div>
 	)
 }

@@ -1,10 +1,11 @@
 import React from 'react'
 import CycleSpan from "../components/CycleSpan";
 import {Link} from 'react-router-dom'
+import NavBar from "../components/NavBar";
 
 function Odysseus() {
         return (
-        <div className='Odysseus setOdysseus'>
+        <div className='poem Odysseus setOdysseus'>
             <h2>Odysseus</h2>
             <p>
            		My reputation is of savage air<br/>
@@ -36,6 +37,7 @@ function Odysseus() {
 				with the tang of bronze in my eyes<br/>
 				and a vacant prison in my hands
             </p>
+            <NavBar/>
         </div>
     )
 }
