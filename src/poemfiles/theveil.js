@@ -1,10 +1,10 @@
 import React from 'react'
-import CycleSpan from "../CycleSpan";
+import CycleSpan from "../components/CycleSpan";
 import {Link} from 'react-router-dom'
 
 function TheVeil() {
 	return (
-		<div className='theveil' className='setOdysseus'>
+		<div className='theveil setOdysseus'>
 		<h2>The Veil</h2>
 		<p>
 			Father, Odysseus lies<br/>

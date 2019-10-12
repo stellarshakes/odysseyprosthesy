@@ -1,10 +1,10 @@
 import React from 'react'
-import CycleSpan from "../CycleSpan";
+import CycleSpan from "../components/CycleSpan";
 import {Link} from 'react-router-dom'
 
 function BabyTelemachos() {
         return (
-        <div className="babytelemachos" className="setOdysseus">
+        <div className='babytelemachos setOdysseus'>
             <h2>Baby Telemachos</h2>
             <p>
                 your mother last let me hold you<br/>

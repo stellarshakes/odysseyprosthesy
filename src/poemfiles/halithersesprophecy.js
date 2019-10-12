@@ -2,7 +2,7 @@ import React from 'react'
 
 function HalithersesProphecy() {
         return (
-        <div className='halithersesprophecy' className='setPenelope'>
+        <div className='halithersesprophecy setPenelope'>
         	<h2>Halitherses' Prophecy</h2>
             <p>
             	Twenty years ago<br/>

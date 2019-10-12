@@ -1,10 +1,10 @@
 import React from 'react'
-import CycleSpan from "../CycleSpan";
+import CycleSpan from "../components/CycleSpan";
 
 
 function Phemios() {
         return (
-		<div className='phemios' className='setPenelope'>
+		<div className='phemios setPenelope'>
 			<h2>Penelope Listens to Phemios</h2>
 			<p>
 			He will not stop<br/>

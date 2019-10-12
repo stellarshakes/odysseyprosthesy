@@ -14,9 +14,10 @@ import Helen from './poemfiles/helen';
 import Poem1 from './poemfiles/poem1';
 import Poem2 from './poemfiles/poem2';
 import Poem3 from './poemfiles/poem3';
-import IntroPage from "./introPage";
+import IntroPage from "./components/introPage";
 import {Switch, Route} from 'react-router-dom'
-
+import BabyTelemachos from "./poemfiles/babytelemachos";
+import NavBar from "./components/NavBar";
 
 function App() {
     return (
@@ -65,6 +66,30 @@ function App() {
                     <IntroPage/>
                 </Route>
             </Switch>
+
+            <NavBar/>
+            <div>
+                <Switch>
+                    <Route path={'/theveil'}>
+                        <TheVeil/>
+                    </Route>
+                    <Route path={'/phemios'}>
+                        <Phemios/>
+                    </Route>
+                    <Route path={'/despair'}>
+                        <Despair/>
+                    </Route>
+                    <Route path={'/halithersesprophecy'}>
+                        <HalithersesProphecy/>
+                    </Route>
+                    <Route path={'/babytelemachos'}>
+                        <BabyTelemachos/>
+                    </Route>
+                    <Route path={'/'}>
+                        <IntroPage/>
+                    </Route>
+                </Switch>
+            </div>
         </div>
     );
 }

@@ -1,22 +1,32 @@
-@import url("http://fonts.googleapis.com/css?family=Mansalva&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Mansalva&display=swap");
 
 .App {
-  text-align: left;
-  font-family: 'Goudy Old Style', cursive;
-  padding-top: 100px;
-  padding-left: 250px;
-  padding-bottom: 100px;
-  line-height: 180%;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-family: 'Goudy Old Style', cursive;
+    line-height: 180%;
 }
 
-div.p {
 
-/*I can't make the p div work :(*/
-
+.text-button {
+    border: none;
+    padding: 3px 0;
+    background-color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    display: inline-block;
 }
 
-.poem2{
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+.text-button:hover {
+    background: #eee;
+}
+
+.poem2 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 .cycleSpan{
@@ -88,13 +98,13 @@ rgba(179,0,255,0.6);
 }
 
 .paragraph {
-  background-color: antiquewhite;
+    background-color: antiquewhite;
 }
 
-.poem1 .cycleSpan{
-  background-color: blue;
+.poem1 .cycleSpan {
+    background-color: blue;
 }
 
 .poem1 .paragraph .cycleSpan {
-  background-color: red;
+    background-color: red;
 }

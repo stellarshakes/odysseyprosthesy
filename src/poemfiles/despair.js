@@ -1,12 +1,14 @@
 import React from 'react'
+import TextLink from "../components/TextLink";
 import {Link} from 'react-router-dom'
 
 function Despair() {
         return (
-        <div className='despair' className='setPenelope'>
+        <div className='despair setPenelope'>
         	<h2>Despair</h2>
             <p>
             	My noble father<br/>
+                <TextLink link={'/babytelemachos'} class={"text-button"}/><br/>
             	<div className='link'>
             	<Link to={"/babytelemachos"}>
                 if he ever was
