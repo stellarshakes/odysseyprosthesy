@@ -12,7 +12,7 @@ function NavBar(){
     return (
         <nav style={navStyle}>
             <StopCycleSpan entries={[
-                "FIrst entry",
+                "first entry",
                 "more entries",
                 "final stopping entry"
             ]} className={"cycleSpan"}/>

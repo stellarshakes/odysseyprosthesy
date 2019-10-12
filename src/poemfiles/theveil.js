@@ -1,5 +1,6 @@
 import React from 'react'
 import CycleSpan from "../components/CycleSpan";
+import StopCycleSpan from "../components/StopCycleSpan";
 import {Link} from 'react-router-dom'
 
 function TheVeil() {
@@ -17,7 +18,12 @@ function TheVeil() {
 			the archaism of the gilt prison<br/>
 			Ogygia<br/>
 			the Veil clings to him
-			<blockquote>the <CycleSpan entries={["various-minded","resourceful","complicated","ingenious","polytropic"]}/> peripatetic<br/>
+			<blockquote>the 
+			<StopCycleSpan entries={[
+                "various-minded","resourceful","complicated","ingenious","polytropic"
+            ]} className={"cycleSpan"}/>
+			<CycleSpan entries={["various-minded","resourceful","complicated","ingenious","polytropic"]}/> peripatetic<br/>
+			
 			<CycleSpan entries={["two decades in tears",
 			"two decades in solitude",
 			"facing five more decades of the last two decades"]}/></blockquote>

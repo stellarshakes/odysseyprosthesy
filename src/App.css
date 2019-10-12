@@ -1,13 +1,26 @@
 @import url("https://fonts.googleapis.com/css?family=Mansalva&display=swap");
 
 .App {
+	/*
 	display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: left;
+    */
     font-family: 'Goudy Old Style', cursive;
     line-height: 180%;
+    padding-top: 80px;
+    padding-left: 180px;
+}
+
+@media screen and (max-width: 600px) {
+  .App {
+    font-family: 'Goudy Old Style', cursive;
+    line-height: 180%;
+    padding-top: 40px;
+    padding-left: 90px;
+  }
 }
 
 

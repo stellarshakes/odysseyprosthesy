@@ -16,7 +16,6 @@ import Poem2 from './poemfiles/poem2';
 import Poem3 from './poemfiles/poem3';
 import IntroPage from "./components/introPage";
 import {Switch, Route} from 'react-router-dom'
-import BabyTelemachos from "./poemfiles/babytelemachos";
 import NavBar from "./components/NavBar";
 
 function App() {
@@ -68,6 +67,15 @@ function App() {
             </Switch>
 
             <NavBar/>
+            
+        </div>
+    );
+}
+
+export default App;
+
+        /* This was under <NavBar/> and in the className='App' <div> 
+        I muted because it was replicating the pages' contents
             <div>
                 <Switch>
                     <Route path={'/theveil'}>
@@ -90,8 +98,5 @@ function App() {
                     </Route>
                 </Switch>
             </div>
-        </div>
-    );
-}
 
-export default App;
+            */
