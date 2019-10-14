@@ -3,7 +3,7 @@ import NavBar from "../components/NavBar";
 
 function HalithersesProphecy() {
     return (
-        <div className='poem halithersesprophecy setPenelope'>
+        <div className='halithersesprophecy setPenelope'>
             <h2>Halitherses' Prophecy</h2>
             <p>
                 Twenty years ago<br/>

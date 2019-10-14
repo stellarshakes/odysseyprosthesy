@@ -2,7 +2,7 @@ import React from 'react'
 
 function TelemachosLeaves() {
     return (
-        <div className='poem TelemachosLeaves setTelemachos'>
+        <div className='TelemachosLeaves setTelemachos'>
             <h2>Telemachos Leaves</h2>
             <p>
                 A divine visitation<br/>

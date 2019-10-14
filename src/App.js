@@ -19,34 +19,54 @@ function App() {
         <div className="App">
             <Switch>
                 <Route path={'/theveil'}>
-                    <TheVeil/>
+                    <div className={"poem theveil"}>
+                        <TheVeil/>
+                    </div>
                 </Route>
                 <Route path={'/phemios'}>
+                    <div className={"poem"}>
                     <Phemios/>
+                    </div>
                 </Route>
                 <Route path={'/despair'}>
+                    <div className={"poem"}>
                     <Despair/>
+                    </div>
                 </Route>
                 <Route path={'/halithersesprophecy'}>
+                    <div className={"poem"}>
                     <HalithersesProphecy/>
+                    </div>
                 </Route>
                 <Route path={'/babytelemachos'}>
+                    <div className={"poem"}>
                     <BabyTelemachos/>
+                    </div>
                 </Route>
                 <Route path={'/odysseus'}>
+                    <div className={"poem"}>
                     <Odysseus/>
+                    </div>
                 </Route>
                 <Route path={'/penelopesshroud'}>
+                    <div className={"poem"}>
                     <PenelopesShroud/>
+                    </div>
                 </Route>
                 <Route path={'/telemachosleaves'}>
+                    <div className={"poem"}>
                     <TelemachosLeaves/>
+                    </div>
                 </Route>
                 <Route path={'/penelope'}>
+                    <div className={"poem"}>
                     <Penelope/>
+                    </div>
                 </Route>
                 <Route path={'/helen'}>
+                    <div className={"poem"}>
                     <Helen/>
+                    </div>
                 </Route>
                 <Route path={'/'}>
                     <IntroPage/>

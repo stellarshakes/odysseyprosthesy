@@ -4,7 +4,7 @@ import CycleSpan from "../components/CycleSpan";
 
 function Phemios() {
     return (
-        <div className='poem phemios setPenelope'>
+        <div className='phemios setPenelope'>
             <h2>Penelope Listens to Phemios</h2>
             <p>
                 He will not stop<br/>

@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 
 function TheVeil() {
     return (
-        <div className='poem theveil setOdysseus'>
+        <div className='setOdysseus'>
             <h2>The Veil</h2>
 
             Father, Odysseus lies<br/>

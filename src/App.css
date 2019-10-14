@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Mansalva&display=swap");
 
-.App {/*
+.App {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: left;*/
+    text-align: left;
     font-family: 'Goudy Old Style';
     line-height: 180%;
 }
@@ -18,16 +18,18 @@
 }
 
 .poem {
-    padding-top: 80px;
-    padding-left: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
     .poem {
         padding-top: 40px;
         padding-left: 90px;
     }
-}
+}*/
 
 .text-button {
     border: none;
