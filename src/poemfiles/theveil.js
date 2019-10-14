@@ -21,10 +21,10 @@ function TheVeil() {
             <blockquote>the
                 <StopCycleSpan entries={[
                     "various-minded", "resourceful", "complicated", "ingenious", "polytropic"
-                ]} className={"cycleSpan"}/>
+                ]} className={"cycleSpan"} lastClassName={"finalCycleSpan"} />
                 <CycleSpan
-                    entries={["various-minded", "resourceful", "complicated", "ingenious", "polytropic"]}/> peripatetic<br/>
-
+                    entries={["various-minded", "resourceful", "complicated", "ingenious", "polytropic"]}/>
+                    peripatetic<br/>
                 <CycleSpan entries={["two decades in tears",
                     "two decades in solitude",
                     "facing five more decades of the last two decades"]}/></blockquote>

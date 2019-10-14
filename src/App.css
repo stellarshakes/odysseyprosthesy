@@ -24,6 +24,11 @@
     width: 100%;
 }
 
+.finalCycleSpan {
+    background-color: crimson;
+    color: azure;
+}
+
 /*@media screen and (max-width: 600px) {
     .poem {
         padding-top: 40px;
