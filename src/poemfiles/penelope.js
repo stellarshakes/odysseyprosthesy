@@ -2,7 +2,7 @@ import React from 'react'
 
 function Penelope() {
     return (
-        <div className='penelope setPenelope'>
+        <div className='poem penelope setPenelope'>
             <h2>Penelope</h2>
             <p>
                 I light a vigil<br/>

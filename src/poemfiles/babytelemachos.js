@@ -3,7 +3,7 @@ import CycleSpan from "../components/CycleSpan";
 
 function BabyTelemachos() {
     return (
-        <div className='babytelemachos setOdysseus'>
+        <div className='poem babytelemachos setOdysseus'>
             <h2>Baby Telemachos</h2>
             <p>
                 your mother last let me hold you<br/>

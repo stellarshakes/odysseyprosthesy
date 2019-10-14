@@ -2,7 +2,7 @@ import React from 'react'
 
 function Helen() {
     return (
-        <div className='helen setPenelope setTelemachos'>
+        <div className='poem helen setPenelope setTelemachos'>
             <h2>
                 <a className='hovertext' title='penelope writes helen'>
                     Telemachos Meets Helen

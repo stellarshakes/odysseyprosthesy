@@ -19,53 +19,53 @@ function App() {
         <div className="App">
             <Switch>
                 <Route path={'/theveil'}>
-                    <div className={"poem theveil"}>
+                    <div className={"poemContainer theveil"}>
                         <TheVeil/>
                     </div>
                 </Route>
                 <Route path={'/phemios'}>
-                    <div className={"poem"}>
-                    <Phemios/>
+                    <div className={"poemContainer"}>
+                        <Phemios/>
                     </div>
                 </Route>
                 <Route path={'/despair'}>
-                    <div className={"poem"}>
-                    <Despair/>
+                    <div className={"poemContainer"}>
+                        <Despair/>
                     </div>
                 </Route>
                 <Route path={'/halithersesprophecy'}>
-                    <div className={"poem"}>
-                    <HalithersesProphecy/>
+                    <div className={"poemContainer"}>
+                        <HalithersesProphecy/>
                     </div>
                 </Route>
                 <Route path={'/babytelemachos'}>
-                    <div className={"poem"}>
-                    <BabyTelemachos/>
+                    <div className={"poemContainer"}>
+                        <BabyTelemachos/>
                     </div>
                 </Route>
                 <Route path={'/odysseus'}>
-                    <div className={"poem"}>
-                    <Odysseus/>
+                    <div className={"poemContainer"}>
+                        <Odysseus/>
                     </div>
                 </Route>
                 <Route path={'/penelopesshroud'}>
-                    <div className={"poem"}>
-                    <PenelopesShroud/>
+                    <div className={"poemContainer"}>
+                        <PenelopesShroud/>
                     </div>
                 </Route>
                 <Route path={'/telemachosleaves'}>
-                    <div className={"poem"}>
-                    <TelemachosLeaves/>
+                    <div className={"poemContainer"}>
+                        <TelemachosLeaves/>
                     </div>
                 </Route>
                 <Route path={'/penelope'}>
-                    <div className={"poem"}>
-                    <Penelope/>
+                    <div className={"poemContainer"}>
+                        <Penelope/>
                     </div>
                 </Route>
                 <Route path={'/helen'}>
-                    <div className={"poem"}>
-                    <Helen/>
+                    <div className={"poemContainer"}>
+                        <Helen/>
                     </div>
                 </Route>
                 <Route path={'/'}>

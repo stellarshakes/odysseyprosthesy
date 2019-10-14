@@ -1,9 +1,8 @@
 import React from 'react'
-import NavBar from "../components/NavBar";
 
 function HalithersesProphecy() {
     return (
-        <div className='halithersesprophecy setPenelope'>
+        <div className='poem halithersesprophecy setPenelope'>
             <h2>Halitherses' Prophecy</h2>
             <p>
                 Twenty years ago<br/>

@@ -10,31 +10,21 @@
     line-height: 180%;
 }
 
-@media screen and (max-width: 600px) {
-    .App {
-        font-family: 'Goudy Old Style';
-        line-height: 180%;
-    }
-}
-
-.poem {
+.poemContainer {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
 }
 
+.PenelopesShroud {
+    margin: 40px;
+}
 .finalCycleSpan {
     background-color: crimson;
     color: azure;
 }
 
-/*@media screen and (max-width: 600px) {
-    .poem {
-        padding-top: 40px;
-        padding-left: 90px;
-    }
-}*/
 
 .text-button {
     border: none;

@@ -5,7 +5,7 @@ import NavBar from "../components/NavBar";
 
 function Despair() {
     return (
-        <div className='despair setPenelope'>
+        <div className='poem despair setPenelope'>
             <h2>Despair</h2>
             <p>
                 My noble father<br/>

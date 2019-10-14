@@ -2,7 +2,7 @@ import React from 'react'
 
 function PenelopesShroud() {
     return (
-        <div className='PenelopesShroud setPenelope'>
+        <div className='poem PenelopesShroud setPenelope'>
             <h2>Penelope's Shroud</h2>
 
             I am no clear lyre<br/>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Odysseus() {
     return (
-        <div className='Odysseus setOdysseus'>
+        <div className='poem Odysseus setOdysseus'>
             <h2>Odysseus</h2>
             <p>
                 My reputation is of savage air<br/>
