@@ -19,6 +19,7 @@
 }
 
 .poem {
+    align-self: start;
 	padding-top: 80px;
     padding-left: 180px;
 }
@@ -29,12 +30,16 @@
     padding-left: 90px;
   }
  }
- 
+
+.blockquote{
+    margin: 16px 40px;
+}
+
 .poemContainer {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
 }
 
 .PenelopesShroud {

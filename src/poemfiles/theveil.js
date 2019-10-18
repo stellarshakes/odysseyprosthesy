@@ -5,48 +5,49 @@ import {Link} from 'react-router-dom'
 import NavBar from "../components/NavBar";
 
 function TheVeil() {
-	return (
-		<div className='poem theveil setOdysseus'>
-		<h2>The Veil</h2>
-		<p>
-			Father, Odysseus lies<br/>
-			concealed at the end of the world<br/>
- 			<br/>
-			shrouded<br/>
-			seeking to live again<br/>
-			<br/>
-			But in the dark at the dawn of the world<br/>
-			the archaism of the gilt prison<br/>
-			Ogygia<br/>
-			the Veil clings to him
-			<blockquote>the 
-			<StopCycleSpan entries={[
-                "various-minded","resourceful","complicated","ingenious","polytropic"
-            ]} className={"cycleSpan"} lastClassName={"finalCycleSpan"} />
-			<CycleSpan entries={["various-minded","resourceful","complicated","ingenious","polytropic"]}/> peripatetic<br/>
-			
-			<CycleSpan entries={["two decades in tears",
-			"two decades in solitude",
-			"facing five more decades of the last two decades"]}/></blockquote>
-			like night clings to shadows<br/>
-			<br/>
-			Father, extinguish the darkness<br/>
-			send him uncovered to<br/>
-			<CycleSpan entries={["Penelope, who kneels before blind gods",
-			"Telemachos, whose father is absence",
-			"Argos, who lives with wretched resolution"]}/><br/>
-			<br/>
-			Ithaki lacks its brightest star<br/>
-			<br/>
-			<i>The Daughter of Endurance will give in:<br/>
-			Odysseus' voyage must begin.<br/></i> 
-			<br/>
-			<Link to={"/phemios"}>
-                →
-            </Link>
-		</p>
-		</div>
-	)
+    return (
+        <div className='poem setOdysseus'>
+            <h2>The Veil</h2>
+            <p>
+                Father, Odysseus lies<br/>
+                concealed at the end of the world<br/>
+                <br/>
+                shrouded<br/>
+                seeking to live again<br/>
+                <br/>
+                But in the dark at the dawn of the world<br/>
+                the archaism of the gilt prison<br/>
+                Ogygia<br/>
+                the Veil clings to him
+				<div className={"blockquote"}>the <span> </span>
+                    <StopCycleSpan entries={[
+                        "various-minded", "resourceful", "complicated", "ingenious", "polytropic"
+                    ]} className={"cycleSpan"} lastClassName={"finalCycleSpan"}/>
+					<span> </span>
+                    <CycleSpan entries={["two decades in tears",
+                        "two decades in solitude",
+                        "facing five more decades of the last two decades"]}/>
+
+                </div>
+                like night clings to shadows<br/>
+                <br/>
+                Father, extinguish the darkness<br/>
+                send him uncovered to<br/>
+                <CycleSpan entries={["Penelope, who kneels before blind gods",
+                    "Telemachos, whose father is absence",
+                    "Argos, who lives with wretched resolution"]}/><br/>
+                <br/>
+                Ithaki lacks its brightest star<br/>
+                <br/>
+                <i>The Daughter of Endurance will give in:<br/>
+                    Odysseus' voyage must begin.<br/></i>
+                <br/>
+                <Link to={"/phemios"}>
+                    →
+                </Link>
+            </p>
+        </div>
+    )
 }
 
 export default TheVeil

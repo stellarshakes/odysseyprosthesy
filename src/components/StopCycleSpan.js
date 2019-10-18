@@ -5,15 +5,15 @@ function StopCycleSpan(props) {
     let [max, setMax] = useState(0);
 
     let handleClick = () => {
-        (count >= max) ? setCount(max) : setCount(count+1)
+        (count >= max) ? setCount(max) : setCount(count + 1)
     };
 
     useEffect(() => {
-        setMax(props.entries.length-1)
-    },[props.entries]);
+        setMax(props.entries.length - 1)
+    }, [props.entries]);
 
     let findClassName = () => {
-        if("lastClassName" in props){
+        if ("lastClassName" in props) {
             if (count === max) {
                 return props.lastClassName
             }
@@ -23,7 +23,9 @@ function StopCycleSpan(props) {
 
     return (
         <span className={findClassName()} onClick={handleClick}>{props.entries[count]}</span>
+
     )
+
 }
 
 export default StopCycleSpan
