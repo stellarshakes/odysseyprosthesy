@@ -9,7 +9,7 @@ function Despair() {
         	<h2>Despair</h2>
             <p>
             	My noble father<br/>
-                <TextLink link={'/babytelemachos'} class={"text-button"}/><br/>
+                <TextLink link={'/babytelemachos'} class={"text-button"} text={"if he ever was"}/><br/>
             	<div className='link'>
             	<Link to={"/babytelemachos"}>
                 if he ever was
@@ -38,7 +38,10 @@ function Despair() {
 				I will be a man and rule my house<br/>
 				and protect her<br/>
 				<br/>
-				I really need him home
+				I really need him home<br/>
+				<br/>
+				<TextLink link={'/telemachosleaves'} class={"text-button"} text={"→"}/><br/>
+
             </p>
             <NavBar/>
         </div>

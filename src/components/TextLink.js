@@ -5,7 +5,7 @@ function TextLink(props){
     return(
         <Link to={props.link}>
             <button className={props.class}>
-                if he ever was
+                {props.text}
             </button>
         </Link>
     )
