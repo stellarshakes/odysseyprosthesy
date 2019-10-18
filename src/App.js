@@ -12,58 +12,70 @@ import Penelope from './poemfiles/penelope';
 import Helen from './poemfiles/helen';
 
 import Poem1 from './poemfiles/poem1';
-import Poem2 from './poemfiles/poem2';
-import Poem3 from './poemfiles/poem3';
 import IntroPage from "./components/introPage";
 import {Switch, Route} from 'react-router-dom'
+import NavBar from "./components/NavBar";
 
 function App() {
     return (
         <div className="App">
             <Switch>
                 <Route path={'/theveil'}>
-                    <TheVeil/>
-                </Route> 
+                    <div className={"poemContainer theveil"}>
+                        <TheVeil/>
+                    </div>
+                </Route>
                 <Route path={'/phemios'}>
-                    <Phemios/>
+                    <div className={"poemContainer"}>
+                        <Phemios/>
+                    </div>
                 </Route>
                 <Route path={'/despair'}>
-                    <Despair/>
+                    <div className={"poemContainer"}>
+                        <Despair/>
+                    </div>
                 </Route>
                 <Route path={'/halithersesprophecy'}>
-                    <HalithersesProphecy/>
+                    <div className={"poemContainer"}>
+                        <HalithersesProphecy/>
+                    </div>
                 </Route>
                 <Route path={'/babytelemachos'}>
-                    <BabyTelemachos/>
+                    <div className={"poemContainer"}>
+                        <BabyTelemachos/>
+                    </div>
                 </Route>
                 <Route path={'/odysseus'}>
-                    <Odysseus/>
+                    <div className={"poemContainer"}>
+                        <Odysseus/>
+                    </div>
                 </Route>
                 <Route path={'/penelopesshroud'}>
-                    <PenelopesShroud/>
+                    <div className={"poemContainer"}>
+                        <PenelopesShroud/>
+                    </div>
                 </Route>
                 <Route path={'/telemachosleaves'}>
-                    <TelemachosLeaves/>
+                    <div className={"poemContainer"}>
+                        <TelemachosLeaves/>
+                    </div>
                 </Route>
                 <Route path={'/penelope'}>
-                    <Penelope/>
+                    <div className={"poemContainer"}>
+                        <Penelope/>
+                    </div>
                 </Route>
                 <Route path={'/helen'}>
-                    <Helen/>
-                </Route>
-                <Route path={'/poem2'}>
-                    <Poem2/>
-                </Route>
-                <Route path={'/poem3'}>
-                    <Poem3/>
-                </Route>
-                <Route path={'/poem1'}>
-                    <Poem1/>
+                    <div className={"poemContainer"}>
+                        <Helen/>
+                    </div>
                 </Route>
                 <Route path={'/'}>
                     <IntroPage/>
                 </Route>
+
             </Switch>   
+            <NavBar/>
         </div>
     );
 }

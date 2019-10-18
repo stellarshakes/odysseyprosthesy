@@ -24,8 +24,8 @@ function BabyTelemachos() {
                 was a private infinity<br/>
                 ruptured by<br/>
                 <CycleSpan entries={["clanging armour waking from storage",
-                "a new kind of grief, some god's doing",
-                "second thoughts?"]}/><br/>
+                    "a new kind of grief, some god's doing",
+                    "second thoughts?"]}/><br/>
                 <br/>
                 the taut sting of your little fingers grasping at my beard<br/>
                 lingers still<br/>

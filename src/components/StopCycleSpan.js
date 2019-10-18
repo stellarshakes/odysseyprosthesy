@@ -12,8 +12,17 @@ function StopCycleSpan(props) {
         setMax(props.entries.length-1)
     },[props.entries]);
 
+    let findClassName = () => {
+        if("lastClassName" in props){
+            if (count === max) {
+                return props.lastClassName
+            }
+        }
+        return props.className
+    };
+
     return (
-        <span className={props.className} onClick={handleClick}>{props.entries[count]}</span>
+        <span className={findClassName()} onClick={handleClick}>{props.entries[count]}</span>
     )
 }
 

@@ -1,13 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Mansalva&display=swap");
 
 .App {
-	/*
-	display: flex;
+
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: left;
-    */
     font-family: 'Goudy Old Style';
     line-height: 180%;
 }
@@ -29,7 +28,24 @@
     padding-top: 40px;
     padding-left: 90px;
   }
+ }
+ 
+.poemContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.PenelopesShroud {
+    margin: 40px;
+}
+
+.finalCycleSpan {
+    background-color: crimson;
+    color: azure;
+}
+
 
 .text-button {
     border: none;
@@ -95,22 +111,68 @@
 	color: white;
 }
 
+.cycleSpan {
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+    color: rgba(100, 100, 100, 0.9);
+}
+
+.cycleSpan:hover {
+    background-color: grey;
+    color: white;
+}
+
+.link {
+    color: red;
+    text-decoration: none;
+}
+
+.setPenelope .cycleSpan {
+    background-color: white;
+    text-decoration: underline;
+    text-decoration-color: rgba(235, 0, 42, 0.6);
+}
+
+.setPenelope .cycleSpan:hover {
+    background-color: rgba(255, 220, 225, 0.3);
+    color: black;
+    text-decoration: none;
+}
+
+.setPenelope .hovertext {
+    border-bottom-style: dotted;
+    border-bottom-color: rgba(235, 0, 42, 0.6);
+    border-bottom-width: 2px;
+}
+
+.setOdysseus .cycleSpan {
+    background-color: rgba(170, 200, 255, 0.2);
+    color: rgba(100, 100, 100, 0.9);
+}
+
+.setOdysseus .cycleSpan:hover {
+    background-color: rgba(0, 130, 250, 0.6);
+    color: white;
+}
+
 /* Telemachos purple
 correct for cyclespan underlines
 adjust in google colour picker for shades
 rgba(179,0,255,0.6);
 */
 
-.setTelemachos .hovertext{
-	border-bottom-style: dotted;
-  	border-bottom-color: rgba(179,0,255,0.6);
-  	border-bottom-width: 1px;
+.setTelemachos .hovertext {
+    border-bottom-style: dotted;
+    border-bottom-color: rgba(179, 0, 255, 0.6);
+    border-bottom-width: 1px;
 }
 
-.setTelemachos h2 .hovertext{
-	border-bottom-style: dotted;
-  	border-bottom-color: rgba(179,0,255,0.6);
-  	border-bottom-width: 2px;
+.setTelemachos h2 .hovertext {
+    border-bottom-style: dotted;
+    border-bottom-color: rgba(179, 0, 255, 0.6);
+    border-bottom-width: 2px;
 }
 
 .theveil {

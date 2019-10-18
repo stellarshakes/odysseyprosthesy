@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import CycleSpan from "../components/CycleSpan";
 import {Link} from 'react-router-dom'
 
@@ -27,4 +27,4 @@ function Poem1() {
     )
 }
 
-export default Poem1
+export default Poem1*/
