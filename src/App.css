@@ -33,6 +33,7 @@
 
 .indent {
 	padding-left: 1.8em;
+	display: inline;
 }
 
 .indent2 {
@@ -82,11 +83,17 @@
 }
 
 .text-button-penelope {
+	border-bottom-color: rgba(0,130,250,0.6);
+}
+
+.text-button-odysseus {
 	border-bottom-color: rgba(235,0,42,0.6);
 }
 
 .cycleSpan{
-  background-color: lightgrey;
+  background-color: white;
+  text-decoration: underline;
+  text-decoration-color: black;
   border-radius: 10px;
   padding-left: 4px;
   padding-right: 4px;
@@ -94,8 +101,9 @@
 }
 
 .cycleSpan:hover{
-  background-color: grey;
-  color: white;
+  background-color: #f8f8f8;
+  color: black;
+  text-decoration: none;
 }
 
 .link {
@@ -106,75 +114,42 @@
 .setPenelope .cycleSpan{
 	background-color: white;
 	text-decoration: underline;
-	text-decoration-color: rgba(235,0,42,0.6);
+	text-decoration-color: rgba(0,130,250,0.6);
 }
 
 .setPenelope .cycleSpan:hover{
-	background-color: rgba(255,220,225,0.3);
+	background-color: rgba(170,200,255,0.2);
 	color: black;
 	text-decoration: none;
 }
 
 .setPenelope .hovertext {
 	border-bottom-style: dotted;
-  	border-bottom-color: rgba(235,0,42,0.6);
+  	border-bottom-color: rgba(0,130,250,0.6);
   	border-bottom-width: 2px;
 }
 
 .setOdysseus .cycleSpan{
-	background-color: rgba(170,200,255,0.2);
-	color: rgba(100,100,100,0.9);
+	background-color: white;
+	text-decoration: underline;
+	text-decoration-color: rgba(235,0,42,0.6);
 }
 
 .setOdysseus .cycleSpan:hover{
-	background-color: rgba(0,130,250,0.6);
-	color: white;
+	background-color: rgba(255,220,225,0.3);
+	color: black;
+	text-decoration: none;
 }
 
-.cycleSpan {
-    background-color: lightgrey;
-    border-radius: 10px;
-    padding-left: 4px;
-    padding-right: 4px;
-    color: rgba(100, 100, 100, 0.9);
-}
-
-.cycleSpan:hover {
-    background-color: grey;
-    color: white;
+.setOdysseus .hovertext {
+	border-bottom-style: dotted;
+  	border-bottom-color: rgba(235,0,42,0.6);
+  	border-bottom-width: 2px;
 }
 
 .link {
     color: red;
     text-decoration: none;
-}
-
-.setPenelope .cycleSpan {
-    background-color: white;
-    text-decoration: underline;
-    text-decoration-color: rgba(235, 0, 42, 0.6);
-}
-
-.setPenelope .cycleSpan:hover {
-    background-color: rgba(255, 220, 225, 0.3);
-    color: black;
-    text-decoration: none;
-}
-
-.setPenelope .hovertext {
-    border-bottom-style: dotted;
-    border-bottom-color: rgba(235, 0, 42, 0.6);
-    border-bottom-width: 2px;
-}
-
-.setOdysseus .cycleSpan {
-    background-color: rgba(170, 200, 255, 0.2);
-    color: rgba(100, 100, 100, 0.9);
-}
-
-.setOdysseus .cycleSpan:hover {
-    background-color: rgba(0, 130, 250, 0.6);
-    color: white;
 }
 
 /* Telemachos purple

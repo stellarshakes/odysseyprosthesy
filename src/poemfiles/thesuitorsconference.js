@@ -32,7 +32,9 @@ function TheSuitorsConference() {
 			and I will leave it there<br/>
 			<br/>
 			
-			<TextLink link={'/'} class={"text-button text-button-telemachos"} text={"Telemachos"}/> | <TextLink link={'/'} class={"text-button text-button-penelope"} text={"Penelope"}/><br/>
+			<TextLink link={'/'} class={"text-button text-button-telemachos"} text={"Telemachos"}/> 
+			| 
+			<TextLink link={'/'} class={"text-button text-button-penelope"} text={"Penelope"}/><br/>
 			
 
 		</p>

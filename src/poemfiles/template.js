@@ -27,9 +27,23 @@ function PoemTitle() {
             This cycle doesn't stop
 			<CycleSpan entries={["entry1","entry2","entry3"]}/>
 
-			<Link to={"/nextpoeminthread"}>
-                →
-            </Link>
+			<a className='hovertext' title='hovertext'>
+			Page text
+			</a><br/>
+
+			<div class="indent">text or space</div>
+
+			<TextLink link={'/nextpoeminthisthread'} class={"text-button text-button-character"} text={"Character"}/> 
+			| 
+			<TextLink link={'/nextpoeminthatthread'} class={"text-button text-button-othercharacter"} text={"Other Character"}/><br/>
+			
+			OR
+
+			<TextLink link={'/lastpoeminthisthread'} class={"text-button text-button-character"} text={"←"}/> 
+			<div class="indent"> </div> 
+			<TextLink link={'/nextpoeminthisthread'} class={"text-button text-button-character"} text={"→"}/><br/>
+
+			Arrows include: ← → ⌂
 		</p>
 		<NavBar/>
 		</div>

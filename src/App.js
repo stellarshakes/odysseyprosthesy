@@ -12,6 +12,11 @@ import Penelope from './poemfiles/penelope';
 import Helen from './poemfiles/helen';
 import TheSuitorsConference from './poemfiles/thesuitorsconference';
 import TheFirstDream from './poemfiles/thefirstdream';
+import Farewell from './poemfiles/farewell';
+import Calypso from './poemfiles/calypso';
+import Consent from './poemfiles/consent';
+import Nausikaa from './poemfiles/nausikaa';
+import Demodokos from './poemfiles/demodokos';
 
 import Poem1 from './poemfiles/poem1';
 import IntroPage from "./components/introPage";
@@ -80,6 +85,31 @@ function App() {
                 <Route path={'/thefirstdream'}>
                     <div className={"poemContainer"}>
                         <TheFirstDream/>
+                    </div>
+                </Route>
+                <Route path={'/farewell'}>
+                    <div className={"poemContainer"}>
+                        <Farewell/>
+                    </div>
+                </Route>
+                <Route path={'/calypso'}>
+                    <div className={"poemContainer"}>
+                        <Calypso/>
+                    </div>
+                </Route>
+                <Route path={'/consent'}>
+                    <div className={"poemContainer"}>
+                        <Consent/>
+                    </div>
+                </Route>
+                <Route path={'/nausikaa'}>
+                    <div className={"poemContainer"}>
+                        <Nausikaa/>
+                    </div>
+                </Route>
+                <Route path={'/demodokos'}>
+                    <div className={"poemContainer"}>
+                        <Demodokos/>
                     </div>
                 </Route>
                 <Route path={'/'}>
