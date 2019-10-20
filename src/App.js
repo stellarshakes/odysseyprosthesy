@@ -10,6 +10,8 @@ import PenelopesShroud from './poemfiles/penelopesshroud';
 import TelemachosLeaves from './poemfiles/telemachosleaves';
 import Penelope from './poemfiles/penelope';
 import Helen from './poemfiles/helen';
+import TheSuitorsConference from './poemfiles/thesuitorsconference';
+import TheFirstDream from './poemfiles/thefirstdream';
 
 import Poem1 from './poemfiles/poem1';
 import IntroPage from "./components/introPage";
@@ -68,6 +70,16 @@ function App() {
                 <Route path={'/helen'}>
                     <div className={"poemContainer"}>
                         <Helen/>
+                    </div>
+                </Route>
+                <Route path={'/thesuitorsconference'}>
+                    <div className={"poemContainer"}>
+                        <TheSuitorsConference/>
+                    </div>
+                </Route>
+                <Route path={'/thefirstdream'}>
+                    <div className={"poemContainer"}>
+                        <TheFirstDream/>
                     </div>
                 </Route>
                 <Route path={'/'}>

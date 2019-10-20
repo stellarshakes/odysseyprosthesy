@@ -37,6 +37,52 @@ function Helen() {
 			<a className='hovertext' title='the pain of living'>
 			men's sorrows
 			</a><br/>
+			<br/>
+			<a className='hovertext' title='we were girls together once'>
+			The daughter of Zeus
+			</a><br/>
+			<a className='hovertext' title='teaching each other to spin and weave'>
+			and her keen wits
+			</a><br/>
+			<a className='hovertext' title='to do so still keeps you in my mind'>
+			which are still about her
+			</a><br/>
+			<a className='hovertext' title='but I was never a match for your games'>
+			are matched only
+			</a><br/>
+			<a className='hovertext' title='and the tricky way you spoke in my voice'>
+			by her silver tongue
+			</a><br/>
+			<a className='hovertext' title='made me laugh'>
+			and its tender words
+			</a><br/>
+			<a className='hovertext' title='cackle'>
+			murmuring
+			</a><br/>
+			<a className='hovertext' title='until you joined me in breathless glee, collapsed on the ground'>
+			ease and comfort lightly
+			</a><br/>
+			<br/>
+			<a className='hovertext' title='I wonder how you are'>
+			I wonder at her
+			</a><br/>
+			<a className='hovertext' title='I hope you, at least, do not regret'>
+			regrets
+			</a><br/>
+			<a className='hovertext' title='I hope your cheeks, at least, are not wet with tears'>
+			infectious tears
+			</a><br/>
+			<a className='hovertext' title='I hope your husband, at least, is warm in your arms'>
+			stories of my father
+			</a><br/>
+			<br/>
+			<a className='hovertext' title='is your courage any quieter since our youth?'>
+			and his legendary valiance
+			</a><br/>
+			<br/>
+			<a className='hovertext' title='we will meet again someday'>
+			I hope to meet him soon
+			</a>
 		</p>
 		<NavBar/>
 		</div>
