@@ -4,9 +4,11 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {HashRouter} from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
 
 ReactDOM.render(
     <HashRouter>
+        <ScrollToTop/>
         <App/>
     </HashRouter>,
     document.getElementById('root')
