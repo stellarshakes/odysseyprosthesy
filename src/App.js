@@ -20,6 +20,7 @@ import Demodokos from './poemfiles/demodokos';
 
 import Poem1 from './poemfiles/poem1';
 import IntroPage from "./components/introPage";
+import Main from './poemfiles/main';
 import {Switch, Route} from 'react-router-dom'
 import NavBar from "./components/NavBar";
 
@@ -112,12 +113,16 @@ function App() {
                         <Demodokos/>
                     </div>
                 </Route>
+                <Route path={'/act-ii'}>
+                    <div className={"poemContainer"}>
+                        <Main/>
+                    </div>
+                </Route>
                 <Route path={'/'}>
                     <IntroPage/>
                 </Route>
 
-            </Switch>   
-            <NavBar/>
+            </Switch>
         </div>
     );
 }
