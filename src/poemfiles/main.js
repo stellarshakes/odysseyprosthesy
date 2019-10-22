@@ -39,6 +39,7 @@ function Main() {
 			<br/>
 			Arrows include: ← → ⌂
 		</p>
+		<NavBar/>
 		</div>
 	)
 }
