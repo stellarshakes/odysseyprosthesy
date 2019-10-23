@@ -203,3 +203,25 @@ rgba(179,0,255,0.6);
   margin-top: 100px;
   margin-bottom: 100px;
 }
+
+.allthreads {
+  margin: 0 auto;
+}
+
+.threadttext:hover {
+  color: rgba(179, 0, 255, 0.6) 
+}
+
+.threadotext:hover {
+  color: rgba(235,0,42,0.6);
+}
+
+.threadptext:hover {
+  color: rgba(0,130,250,0.6);
+}
+
+td {
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+}
