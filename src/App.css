@@ -38,10 +38,47 @@
 
 .indent2 {
 	padding-left: 3.6em;
+  display: inline;
 }
 
 .indent3 {
 	padding-left: 5.4em;
+  display: inline;
+}
+
+.indent4 {
+  padding-left: 7.2em;
+  display: inline;
+}
+
+.indent5 {
+  padding-left: 9.0em;
+  display: inline;
+}
+
+.indent6 {
+  padding-left: 10.8em;
+  display: inline;
+}
+
+.indent7 {
+  padding-left: 12.6em;
+  display: inline;
+}
+
+.indent8 {
+  padding-left: 14.4em;
+  display: inline;
+}
+
+.indent9 {
+  padding-left: 16.2em;
+  display: inline;
+}
+
+.indent10 {
+  padding-left: 18.0em;
+  display: inline;
 }
 
 .poemContainer {
@@ -208,20 +245,38 @@ rgba(179,0,255,0.6);
   margin: 0 auto;
 }
 
+.threadttext {
+  display: inline;
+}
+
 .threadttext:hover {
   color: rgba(179, 0, 255, 0.6) 
+}
+
+.threadotext {
+  display: inline;
 }
 
 .threadotext:hover {
   color: rgba(235,0,42,0.6);
 }
 
+.threadptext {
+  display: inline;
+}
+
 .threadptext:hover {
   color: rgba(0,130,250,0.6);
+  display: inline;
 }
 
 td {
   padding-left: 100px;
   padding-right: 100px;
   text-align: center;
+}
+
+.intersection {
+  padding-left: 10px;
+  padding-right: 10px;
 }

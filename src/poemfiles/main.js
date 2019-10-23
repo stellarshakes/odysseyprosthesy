@@ -257,14 +257,98 @@ function Main() {
 					<br/>
 				</td>
 			</tr>
-		</table>
+			<tr>
+			<td className='bkfour threadt threadp intersection' colspan='2'>
+				<div>
+					<br/>
+					<div class="indent8"> </div><div class="indent5"> </div><div className='threadptext'>There is</div><br/>
+					<div class="indent2"> </div>I can<div class="indent8"> </div><div class="indent2"> </div><div className='threadptext'>no privacy</div><br/>
+					<div class="indent2"> </div>quest<div class="indent8"> </div><div class="indent2"> </div><div className='threadptext'>in solitude</div><br/>
+					as<div class="indent8"> </div><div class="indent2"> </div><br/>
+					<div class="indent2"> </div>far<div class="indent8"> </div><div class="indent"> </div>The<div class="indent"> </div><br/>
+					<div class="indent3"> </div>as<div class="indent8"> </div>rest<div class="indent2"> </div><br/>
+					<div class="indent8"> </div>of<br/>
+					sandy<div class="indent5"> </div>my<br/>
+					Pylos<div class="indent3"> </div>family<br/>
+					<br/>
+					and<div class="indent2"> </div>is&emsp;<br/>
+					distant<br/>
+					<div class="indent3"> </div>Sparta<br/>
+					and<div class="indent3"> </div><br/>
+					those<div class="indent4"> </div><br/>
+					that<div class="indent6"> </div><br/>
+					remain<div class="indent6"> </div><br/>
+					<br/>
+					I tell myself<div class="indent5"> </div><br/>
+					<br/>
+					will<div class="indent4"> </div>My<br/>
+					<div class="indent"> </div>&emsp;not<div class="indent2"> </div>triumphant<br/>
+					return<br/>
+					<br/>
+					will<div class="indent5"> </div><br/>
+					<div class="indent3"> </div>bring<div class="indent7"> </div>To the gods<br/>
+					<div class="indent2"> </div>my<div class="indent9"> </div>I<div class="indent"> </div><br/>
+					<div class="indent"> </div><CycleSpan entries={["poor","dear","lonely"]}/><div class="indent9"> </div>am<br/>
+					<div class="indent"> </div>mother<div class="indent10"> </div>a<div class="indent"> </div><br/>
+					comfort<div class="indent10"> </div>study<br/>
+					<div class="indent10"> </div><div class="indent2"> </div>in<br/>
+					<div class="indent10"> </div><div class="indent2"> </div>solitude<br/>
+				</div>
+			</td>
+			<td className='bkfour threado'>
+				<div className='threadotext'>
+					
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td className='bkfour threadt'>
+				<div className='threadttext'>
+					Lion-hearted<br/>
+					Odysseus<br/>
+					need<br/>
+					only<br/>
+					wait<br/>
+					<br/>
+					<br/>
+					I<br/>
+					am<br/>
+					on<br/>
+					my<br/>
+					way<br/>
+					<br/>
+					<br/>
+				</div>
+			</td>
+			<td className='bkfour threadp'>
+				<div className='threadptext'>
+					<br/>				
+					ripe<br/>
+					for<br/>
+					dreaming<br/>
+					<br/>
+					There is<br/>
+					no relief<br/>
+					in sleep<br/>
+					<br/>
+					Odysseus<br/>
+					has to<br/>
+					return<br/>
+					<br/>
+					he has to<br/>
+				</div>
+			</td>
+			<td className='bkfour threado'>
+				<div className='threadotext'>
+					
+				</div>
+			</td>
+		</tr>
 
-		<br/>
-		<br/>
-		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-		<br/>
-		<br/>
+	</table>
+			
 
+		
 		Template for 3-cell rows
 
 		<tr>
@@ -325,6 +409,10 @@ function Main() {
 		</table>
 
 		<p>
+
+			<CycleSpan entries={["clanging armour waking from storage",
+                    "a new kind of grief, some god's doing",
+                    "second thoughts?"]}/>
 
 			<div class="indent">text or space</div>
 			<br/>
