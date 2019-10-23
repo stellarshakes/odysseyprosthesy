@@ -81,6 +81,10 @@
   display: inline;
 }
 
+.blockquote {
+  padding-left: 25px;
+}
+
 .poemContainer {
     width: 100%;
     display: flex;
@@ -184,11 +188,6 @@
   	border-bottom-width: 2px;
 }
 
-.link {
-    color: red;
-    text-decoration: none;
-}
-
 /* Telemachos purple
 correct for cyclespan underlines
 adjust in google colour picker for shades
@@ -248,28 +247,28 @@ rgba(179,0,255,0.6);
 .threadttext {
   display: inline;
 }
-
+/*
 .threadttext:hover {
   color: rgba(179, 0, 255, 0.6) 
 }
-
+*/
 .threadotext {
   display: inline;
 }
-
+/*
 .threadotext:hover {
   color: rgba(235,0,42,0.6);
 }
-
+*/
 .threadptext {
   display: inline;
 }
-
+/*
 .threadptext:hover {
   color: rgba(0,130,250,0.6);
   display: inline;
 }
-
+*/
 td {
   padding-left: 100px;
   padding-right: 100px;

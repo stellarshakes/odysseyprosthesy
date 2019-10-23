@@ -4,6 +4,7 @@ import StopCycleSpan from "../components/StopCycleSpan";
 import {Link} from 'react-router-dom'
 import TextLink from "../components/TextLink";
 import NavBar from "../components/NavBar";
+import ScrollToTop from "../components/ScrollToTop"
 
 function Nausikaa() {
 	return (
@@ -17,14 +18,14 @@ function Nausikaa() {
 			laundry crumpled in the river bank<br/>
 			<br/>
 			Rounding on the princess
-			<blockquote>still standing resolute</blockquote>
+			<div className='blockquote'>still standing resolute</div>
 			the man sized her up<br/>
 			<br/>
 			Even under his fierce gaze<br/>
 			and fearsome appearance
-			<blockquote>muscles firm with hardship<br/>
+			<div className ='blockquote'>muscles firm with hardship<br/>
 			skin thick with mud and sea salt<br/>
-			modesty preserved only by a leafy bough</blockquote>
+			modesty preserved only by a leafy bough</div>
 			courageous clever Nausikaa stood<br/>
 			stared him down<br/>
 			waiting for him to speak<br/>
@@ -40,6 +41,7 @@ function Nausikaa() {
 			<TextLink link={'/calypso'} class={"text-button text-button-odysseus"} text={"←"}/> <div class="indent"> </div> <TextLink link={'/demodokos'} class={"text-button text-button-odysseus"} text={"→"}/>
 
 		</p>
+		<ScrollToTop/>
 		<NavBar/>
 		</div>
 	)

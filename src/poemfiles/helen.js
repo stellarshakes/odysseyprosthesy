@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import NavBar from "../components/NavBar";
+import ScrollToTop from "../components/ScrollToTop"
 
 function Helen() {
 	return (
@@ -84,6 +85,7 @@ function Helen() {
 			I hope to meet him soon
 			</a>
 		</p>
+		<ScrollToTop/>
 		<NavBar/>
 		</div>
 	)

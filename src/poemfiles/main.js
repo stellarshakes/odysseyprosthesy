@@ -40,7 +40,7 @@ function Main() {
 					me<br/>
 					<br/>
 					<br/>
-					ten insufferable years now<br/>
+					ten <TextLink link={'/despair'} class={"text-button text-button-telemachos"} text={"insufferable"}/> years now<br/>
 					</div>
 				</td>
 				<td className='bkone threadp'>
@@ -67,13 +67,13 @@ function Main() {
 					have<br/>
 					our<br/>
 					talented<br/>
-					bard<br/>
+					<TextLink link={'/phemios'} class={"text-button text-button-penelope"} text={"bard"}/><br/>
 					<br/>
 					and<br/>
 					I<br/>
 					have<br/>
 					my<br/>
-					weaving<br/>
+					<TextLink link={'/penelopesshroud'} class={"text-button text-button-penelope"} text={"weaving"}/><br/>
 					</div>
 				</td>
 				<td className='bkone threado'>
@@ -84,9 +84,9 @@ function Main() {
 					starts<br/>
 					with<br/>
 					<br/>
-					gods<br/>
+					<TextLink link={'/theveil'} class={"text-button text-button-odysseus"} text={"gods"}/><br/>
 					<br/>
-					prophecies<br/>
+					<TextLink link={'/halithersesprophecy'} class={"text-button text-button-odysseus"} text={"prophecies"}/><br/>
 					<br/>
 					all<br/>
 					that<br/>
@@ -116,7 +116,7 @@ function Main() {
 					I will<br/>
 					leave<br/>
 					<br/>
-					tonight<br/>
+					<TextLink link={'/telemachosleaves'} class={"text-button text-button-telemachos"} text={"tonight"}/><br/>
 					<br/>
 					<br/>
 					<br/>
@@ -196,7 +196,7 @@ function Main() {
 					story<br/>
 					<br/>
 					my<br/>
-					mission<br/>
+					<TextLink link={'/odysseus'} class={"text-button text-button-odysseus"} text={"mission"}/><br/>
 					<br/>
 					<br/>
 					I<br/>
@@ -205,7 +205,7 @@ function Main() {
 					leave<br/>
 					my<br/>
 					infant<br/>
-					son<br/>
+					<TextLink link={'/babytelemachos'} class={"text-button text-button-odysseus"} text={"son"}/><br/>
 					behind<br/>
 					<br/>
 					<br/>
@@ -241,7 +241,7 @@ function Main() {
 					<br/>
 					It's<br/>
 					just<br/>
-					me<br/>
+					<TextLink link={'/penelope'} class={"text-button text-button-penelope"} text={"me"}/><br/>
 					here<br/>
 					now<br/>
 					<br/>
@@ -272,7 +272,7 @@ function Main() {
 					Pylos<div class="indent3"> </div>family<br/>
 					<br/>
 					and<div class="indent2"> </div>is&emsp;<br/>
-					distant<br/>
+					<TextLink link={'/helen'} class={"text-button"} text={"distant"}/><br/>
 					<div class="indent3"> </div>Sparta<br/>
 					and<div class="indent3"> </div><br/>
 					those<div class="indent4"> </div><br/>
@@ -283,7 +283,7 @@ function Main() {
 					<br/>
 					will<div class="indent4"> </div>My<br/>
 					<div class="indent"> </div>&emsp;not<div class="indent2"> </div>triumphant<br/>
-					return<br/>
+					<TextLink link={'/thesuitorsconference'} class={"text-button"} text={"return"}/><br/>
 					<br/>
 					will<div class="indent5"> </div><br/>
 					<div class="indent3"> </div>bring<div class="indent7"> </div>To the gods<br/>
@@ -325,7 +325,7 @@ function Main() {
 					<br/>				
 					ripe<br/>
 					for<br/>
-					dreaming<br/>
+					<TextLink link={'/thefirstdream'} class={"text-button text-button-penelope"} text={"dreaming"}/><br/>
 					<br/>
 					There is<br/>
 					no relief<br/>
@@ -348,7 +348,6 @@ function Main() {
 	</table>
 			
 
-		
 		Template for 3-cell rows
 
 		<tr>
@@ -369,52 +368,8 @@ function Main() {
 			</td>
 		</tr>
 
-
-		<table>
-		  <tr>
-		    <td><CycleSpan entries={["χαῖρε, ξεῖνε","Καλώς ήλθατε, ξένε","Welcome, stranger"]}/><br/>
-		    <CycleSpan entries={["χαῖρε, ξεῖνε","Καλώς ήλθατε, ξένε","Welcome, stranger"]}/><br/>
-		    hi!</td>
-		    <td>Little</td>
-		    <td>Piggy</td>
-		    <td>Went</td>
-		    <td>To</td>
-		    <td>Market</td>
-		  </tr>
-		  <tr>
-		    <td colspan="2">This</td>
-		    <td>Little</td>
-		    <td>Piggy</td>
-		    <td>Went</td>
-		    <td>To</td>
-		  </tr>
-		    <tr>
-		    <td colspan="4">This</td>
-		    <td rowspan="3">Little</td>
-		    <td>Piggy</td>
-		  </tr>
-		  <tr>
-		    <td rowspan="2">This</td>
-		    <td>Little</td>
-		    <td>Piggy</td>
-		    <td>Went</td>
-		    <td>To</td>
-		  </tr>
-		  <tr>
-		    <td>Little</td>
-		    <td>Piggy</td>
-		    <td>Went</td>
-		    <td>To</td>
-		  </tr>
-		</table>
-
 		<p>
 
-			<CycleSpan entries={["clanging armour waking from storage",
-                    "a new kind of grief, some god's doing",
-                    "second thoughts?"]}/>
-
-			<div class="indent">text or space</div>
 			<br/>
 			<TextLink link={'/subpoem'} class={"text-button text-button-character"} text={"verse"}/> 
 			

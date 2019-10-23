@@ -3,6 +3,7 @@ import CycleSpan from "../components/CycleSpan";
 import StopCycleSpan from "../components/StopCycleSpan";
 import {Link} from 'react-router-dom'
 import NavBar from "../components/NavBar";
+import ScrollToTop from "../components/ScrollToTop"
 
 function TheVeil() {
     return (
@@ -19,11 +20,11 @@ function TheVeil() {
                 the archaism of the gilt prison<br/>
                 Ogygia<br/>
                 the Veil clings to him
-				<div className={"blockquote"}>the <span> </span>
+				<div className="blockquote">the <span> </span>
                     <StopCycleSpan entries={[
                         "various-minded", "resourceful", "complicated", "ingenious", "polytropic"
-                    ]} className={"cycleSpan"} lastClassName={"finalCycleSpan"}/>
-					<span> </span>
+                    ]} className={"cycleSpan"} lastClassName={"finalCycleSpan"}/> peripatetic<br/>
+					
                     <CycleSpan entries={["two decades in tears",
                         "two decades in solitude",
                         "facing five more decades of the last two decades"]}/>
@@ -46,6 +47,7 @@ function TheVeil() {
                     →
                 </Link>
             </p>
+            <ScrollToTop/>
         </div>
     )
 }

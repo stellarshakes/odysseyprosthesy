@@ -2,6 +2,7 @@ import React from 'react'
 import TextLink from "../components/TextLink";
 import {Link} from 'react-router-dom'
 import NavBar from "../components/NavBar";
+import ScrollToTop from "../components/ScrollToTop"
 
 function Despair() {
         return (
@@ -43,6 +44,7 @@ function Despair() {
 				<TextLink link={'/telemachosleaves'} class={"text-button"} text={"→"}/><br/>
 
             </p>
+            <ScrollToTop/>
             <NavBar/>
         </div>
     )

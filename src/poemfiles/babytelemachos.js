@@ -2,6 +2,7 @@ import React from 'react'
 import CycleSpan from "../components/CycleSpan";
 import {Link} from 'react-router-dom'
 import NavBar from "../components/NavBar";
+import ScrollToTop from "../components/ScrollToTop"
 
 function BabyTelemachos() {
         return (
@@ -37,6 +38,7 @@ function BabyTelemachos() {
                 twenty years in the making<br/>
                 and not know it
             </p>
+            <ScrollToTop/>
             <NavBar/>
         </div>
     )

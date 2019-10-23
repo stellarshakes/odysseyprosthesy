@@ -1,5 +1,6 @@
 import React from 'react'
 import NavBar from "../components/NavBar";
+import ScrollToTop from "../components/ScrollToTop"
 
 function HalithersesProphecy() {
         return (
@@ -36,6 +37,7 @@ function HalithersesProphecy() {
 				two little birds visited<br/>
 				screaming bloody vindications
             </p>
+            <ScrollToTop/>
         </div>
     )
 }

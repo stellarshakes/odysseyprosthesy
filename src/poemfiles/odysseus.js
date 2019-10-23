@@ -1,4 +1,5 @@
 import React from 'react'
+import ScrollToTop from "../components/ScrollToTop"
 
 function Odysseus() {
     return (
@@ -34,6 +35,7 @@ function Odysseus() {
                 with the tang of bronze in my eyes<br/>
                 and a vacant prison in my hands
             </p>
+            <ScrollToTop/>
         </div>
     )
 }

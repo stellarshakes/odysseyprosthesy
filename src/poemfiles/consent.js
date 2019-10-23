@@ -1,6 +1,7 @@
 import React from 'react'
 import TextLink from "../components/TextLink";
 import NavBar from "../components/NavBar";
+import ScrollToTop from "../components/ScrollToTop"
 
 function Consent() {
 	return (
@@ -60,6 +61,7 @@ function Consent() {
 			<TextLink link={'/calypso'} class={"text-button text-button-odysseus"} text={"←"}/>
 
 		</p>
+		<ScrollToTop/>
 		<NavBar/>
 		</div>
 	)

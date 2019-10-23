@@ -3,6 +3,7 @@ import CycleSpan from "../components/CycleSpan";
 import {Link} from 'react-router-dom'
 import TextLink from "../components/TextLink";
 import NavBar from "../components/NavBar";
+import ScrollToTop from "../components/ScrollToTop"
 
 function Demodokos() {
 	return (
@@ -83,6 +84,7 @@ function Demodokos() {
 			<TextLink link={'/polyphemos'} class={"text-button text-button-odysseus"} text={"→"}/><br/>
 
 		</p>
+		<ScrollToTop/>
 		<NavBar/>
 		</div>
 	)

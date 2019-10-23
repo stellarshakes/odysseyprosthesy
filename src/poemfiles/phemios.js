@@ -1,6 +1,7 @@
 import React from 'react'
 import CycleSpan from "../components/CycleSpan";
 import NavBar from "../components/NavBar";
+import ScrollToTop from "../components/ScrollToTop"
 
 function Phemios() {
         return (
@@ -37,7 +38,7 @@ function Phemios() {
 			<br/>
 			but I will not find it here<br/>
 			</p>
-			<NavBar/>
+			<ScrollToTop/>
 		</div>
 	)
 }

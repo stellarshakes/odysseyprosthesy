@@ -4,6 +4,7 @@ import StopCycleSpan from "../components/StopCycleSpan";
 import {Link} from 'react-router-dom'
 import TextLink from "../components/TextLink";
 import NavBar from "../components/NavBar";
+import ScrollToTop from "../components/ScrollToTop"
 
 function Farewell() {
 	return (
@@ -71,6 +72,7 @@ function Farewell() {
 			| 
 			<TextLink link={'/'} class={"text-button text-button-penelope"} text={"Penelope"}/><br/>
 		</p>
+		<ScrollToTop/>
 		<NavBar/>
 		</div>
 	)

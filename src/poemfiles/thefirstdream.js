@@ -2,6 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import TextLink from "../components/TextLink";
 import NavBar from "../components/NavBar";
+import ScrollToTop from "../components/ScrollToTop"
 
 /*still needs editing for space*/
 
@@ -60,6 +61,7 @@ function TheFirstDream() {
                 →
             </Link>
 		</p>
+		<ScrollToTop/>
 		<NavBar/>
 		</div>
 	)

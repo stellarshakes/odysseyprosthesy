@@ -1,4 +1,5 @@
 import React from 'react'
+import ScrollToTop from "../components/ScrollToTop"
 
 function TelemachosLeaves() {
     return (
@@ -30,6 +31,7 @@ function TelemachosLeaves() {
                 <br/>
                 I must bring something home
             </p>
+            <ScrollToTop/>
         </div>
     )
 }

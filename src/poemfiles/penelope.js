@@ -1,4 +1,6 @@
 import React from 'react'
+import ScrollToTop from "../components/ScrollToTop"
+
 function Penelope() {
     return (
         <div className='poem penelope setPenelope'>
@@ -22,6 +24,7 @@ function Penelope() {
                 My turn is surely next<br/>
                 to either leave or finally awaken
             </p>
+            <ScrollToTop/>
         </div>
     )
 }

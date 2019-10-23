@@ -17,6 +17,8 @@ import Calypso from './poemfiles/calypso';
 import Consent from './poemfiles/consent';
 import Nausikaa from './poemfiles/nausikaa';
 import Demodokos from './poemfiles/demodokos';
+import Polyphemos from './poemfiles/polyphemos';
+import Circe from './poemfiles/circe';
 
 import Poem1 from './poemfiles/poem1';
 import IntroPage from "./components/introPage";
@@ -111,6 +113,16 @@ function App() {
                 <Route path={'/demodokos'}>
                     <div className={"poemContainer"}>
                         <Demodokos/>
+                    </div>
+                </Route>
+                <Route path={'/polyphemos'}>
+                    <div className={"poemContainer"}>
+                        <Polyphemos/>
+                    </div>
+                </Route>
+                <Route path={'/aeaea'}>
+                    <div className={"poemContainer"}>
+                        <Circe/>
                     </div>
                 </Route>
                 <Route path={'/act-ii'}>

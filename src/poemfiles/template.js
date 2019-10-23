@@ -7,6 +7,7 @@ import StopCycleSpan from "../components/StopCycleSpan";
 import {Link} from 'react-router-dom'
 import TextLink from "../components/TextLink";
 import NavBar from "../components/NavBar";
+import ScrollToTop from "../components/ScrollToTop"
 
 function PoemTitle() {
 	return (
@@ -36,15 +37,20 @@ function PoemTitle() {
 			<TextLink link={'/nextpoeminthisthread'} class={"text-button text-button-character"} text={"Character"}/> 
 			| 
 			<TextLink link={'/nextpoeminthatthread'} class={"text-button text-button-othercharacter"} text={"Other Character"}/><br/>
+			<br/>
 			
 			OR
 
-			<TextLink link={'/lastpoeminthisthread'} class={"text-button text-button-character"} text={"←"}/> 
+			TextLink link={'/lastpoeminthisthread'} class={"text-button text-button-character"} text={"←"}/> 
+			<div class="indent"> </div> 
+			<TextLink link={'/act-ii'} class={"text-button text-button-character"} text={"⌂"}/>
 			<div class="indent"> </div> 
 			<TextLink link={'/nextpoeminthisthread'} class={"text-button text-button-character"} text={"→"}/><br/>
+			<br/>
 
 			Arrows include: ← → ⌂
 		</p>
+		<ScrollToTop/>
 		<NavBar/>
 		</div>
 	)

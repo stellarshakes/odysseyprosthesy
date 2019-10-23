@@ -2,6 +2,7 @@ import React from 'react'
 import CycleSpan from "../components/CycleSpan";
 import {Link} from 'react-router-dom'
 import NavBar from "../components/NavBar";
+import ScrollToTop from "../components/ScrollToTop"
 
 function PenelopesShroud() {
         return (
@@ -43,6 +44,7 @@ function PenelopesShroud() {
 				They reach for an anchor<br/>
 				and are choked by fresh morning with droplets
             </p>
+            <ScrollToTop/>
             <NavBar/>
         </div>
     )
