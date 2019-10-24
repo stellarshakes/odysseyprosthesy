@@ -15,7 +15,7 @@ function OdysseusMeetsHisSon() {
 			spread with fleece<br/>
 			<br/>
 			He declined the offered seat<br/>
-			<div className='blockquote'>his father's seat!</div><br/>
+			<div className='blockquote'>his father's seat!</div>
 			and smiled at the offer of yesterday's meat<br/>
 			<br/>
 			Odysseus, disguised<br/>
@@ -46,7 +46,7 @@ function OdysseusMeetsHisSon() {
 			<br/>
 			He drinks<br/>
 			beholds his son<br/>
-			<div className='blockquote'>his son!</div><br/>
+			<div className='blockquote'>his son!</div>
 			and the gods themselves place some divine hearth<br/>
 			within him<br/>
 			<br/>

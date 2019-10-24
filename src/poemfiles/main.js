@@ -753,7 +753,7 @@ function Main() {
 					<div class="indent"></div>cannot<div class="indent9"></div>there was<br/>
 					believe<div class="indent6"></div>one more<br/>
 					<div class="indent"></div>that<div class="indent3"></div>important<br/>
-					farewell<br/>
+					<TextLink link={'/farewellrecalled'} class={"text-button"} text={"farewell"}/><br/>
 					to<div class="indent3"></div>will<br/>
 					undo<div class="indent5"></div>be<br/>
 					<div class="indent8"></div>the<br/>
