@@ -34,6 +34,9 @@ import PenelopesShroudEnds from './poemfiles/penelopesshroudends';
 import EurycleiasRecognition from './poemfiles/eurycleiasrecognition';
 import Reminiscences from './poemfiles/reminiscences';
 import TheSecondDream from './poemfiles/theseconddream';
+import Reckoning from './poemfiles/reckoning';
+import OdysseusReturning from './poemfiles/odysseusreturning';
+import TheKingReturns from './poemfiles/thekingreturns';
 
 import IntroPage from "./components/introPage";
 import Main from './poemfiles/main';
@@ -212,6 +215,21 @@ function App() {
                 <Route path={'/theseconddream'}>
                     <div className={"poemContainer"}>
                         <TheSecondDream/>
+                    </div>
+                </Route>
+                <Route path={'/reckoning'}>
+                    <div className={"poemContainer"}>
+                        <Reckoning/>
+                    </div>
+                </Route>
+                <Route path={'/odysseusreturning'}>
+                    <div className={"poemContainer"}>
+                        <OdysseusReturning/>
+                    </div>
+                </Route>
+                <Route path={'/thekingreturns'}>
+                    <div className={"poemContainer"}>
+                        <TheKingReturns/>
                     </div>
                 </Route>
                 <Route path={'/act-ii'}>

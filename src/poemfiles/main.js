@@ -973,6 +973,136 @@ function Main() {
 				</div>
 			</td>
 		</tr>
+		<tr>
+			<td className='bktwenty threadt threado intersection' colspan='2'>
+				<div>
+					<div class="indent"></div><br/>
+					<div class="indent10"></div><div class="indent2"></div>and<br/>
+					<div class="indent10"></div>I<br/>
+					<div class="indent"></div><br/>
+					<div class="indent7"></div>with<br/>
+					<div class="indent5"></div>a<br/>
+					The gods<div class="indent2"></div>little<div class="indent"></div><br/>
+					<TextLink link={'/reckoning'} class={"text-button"} text={"help"}/><br/>
+					<div class="indent5"></div>their favourites<br/>
+					<div class="indent"></div><br/>
+					<div class="indent6"></div>in the pursuit<br/>
+					<div class="indent6"></div>of <TextLink link={'/thekingreturns'} class={"text-button text-button-telemachos"} text={"justice"}/><br/>
+					<div class="indent"></div><br/>
+					<div class="indent"></div><br/>
+					<div class="indent6"></div>if any<br/>
+					<div class="indent5"></div>my father<br/>
+					would<div class="indent3"></div>must<br/>
+					be<div class="indent2"></div>be<br/>
+					<TextLink link={'/odysseusreturning'} class={"text-button"} text={"the one"}/><br/>
+					person<div class="indent2"></div>to<div class="indent"></div><br/>
+					to have earned<div class="indent4"></div>see<div class="indent2"></div><br/>
+					such<div class="indent8"></div>it<div class="indent"></div><br/>
+					favour<div class="indent10"></div>through<br/>
+					<br/>
+					<br/>
+				</div>
+			</td>
+			<td className='bktwenty threadp'>
+				<div className='threadptext'>
+					<br/>
+					<br/>
+					<br/>
+					I know how to remind them<br/>
+					what sort of a man he was<br/>
+					<br/>
+					<br/>
+					their gifts<br/>
+					cannot match<br/>
+					his generosity<br/>
+					<br/>
+					<br/>
+					<br/>
+					their pressure<br/>
+					does not match<br/>
+					his presence<br/>
+					<br/>
+					<br/>
+					<br/>
+					and their bravado<br/>
+					will not match<br/>
+					his strength <br/>
+					<br/>
+					<br/>
+					<br/>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td className='bktwentyone threadt'>
+				<div className='threadttext'>
+				
+				</div>
+			</td>
+			<td className='bktwentyone threado'>
+				<div className='threadotext'>
+					
+				</div>
+			</td>
+			<td className='bktwentyone threadp'>
+				<div className='threadptext'>
+					Good thing<br/>
+					I never let<br/>
+					the servants<br/>
+					clear out<br/>
+					that old bow<br/>
+					<br/>
+					<br/>
+					<br/>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td className='bktwentyone threadt'>
+				<div className='threadttext'>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					I help<br/>
+					my mother<br/>
+					set up<br/>
+					her challenge<br/>
+					with my father's bow<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+ 					<br/>
+				</div>
+			</td>
+			<td className='bknumber threado threadp intersection' colspan='2'>
+				<div >
+					<div class="indent"></div>These men<br/>
+					<div class="indent"></div>don't understand<br/>
+					<div class="indent"></div>the meaning<br/>
+					Penelope<div class="indent"></div>of<br/>
+					was perspicacious<div class="indent"></div>no<br/>
+					<div class="indent"></div>
+					<div class="indent"></div>They accept<br/>
+					Her<div class="indent"></div>the<br/>
+					challenge<br/>
+					and fail<div class="indent"></div>for<br/>
+					one<div class="indent"></div>her suitors<br/>
+					by<div class="indent"></div>with my old bow<br/>
+					one<div class="indent"></div>was the perfect start<br/>
+					<div class="indent"></div><br/>
+					Except one<div class="indent"></div>Even Athena<br/>
+					<div class="indent"></div>had not<br/>
+					<div class="indent"></div>expected it<br/>
+					<br/>
+				</div>
+			</td>
+		</tr>
 
 	</table>
 			
@@ -1005,6 +1135,7 @@ function Main() {
 		<p>
 
 			<br/>
+			<div class="indent"></div>
 			<TextLink link={'/subpoem'} class={"text-button text-button-character"} text={"verse"}/>
 			
 		</p>
