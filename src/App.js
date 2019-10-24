@@ -28,6 +28,11 @@ import TheBoarHunt from './poemfiles/theboarhunt';
 import OdysseusMeetsHisSon from './poemfiles/odysseusmeetshisson';
 import FarewellRecalled from './poemfiles/farewellrecalled';
 import CharonMeetsArgos from './poemfiles/charonmeetsargos';
+import Interview from './poemfiles/interview';
+import PenelopeandtheShroud from './poemfiles/penelopeandtheshroud';
+import EurycleiasRecognition from './poemfiles/eurycleiasrecognition';
+import Reminiscences from './poemfiles/reminiscences';
+import TheSecondDream from './poemfiles/theseconddream';
 
 import IntroPage from "./components/introPage";
 import Main from './poemfiles/main';
@@ -176,6 +181,31 @@ function App() {
                 <Route path={'/thedogdies'}>
                     <div className={"poemContainer"}>
                         <CharonMeetsArgos/>
+                    </div>
+                </Route>
+                <Route path={'/interview'}>
+                    <div className={"poemContainer"}>
+                        <Interview/>
+                    </div>
+                </Route>
+                <Route path={'/penelopeandtheshroud'}>
+                    <div className={"poemContainer"}>
+                        <PenelopeandtheShroud/>
+                    </div>
+                </Route>
+                <Route path={'/eurycleiasrecognition'}>
+                    <div className={"poemContainer"}>
+                        <EurycleiasRecognition/>
+                    </div>
+                </Route>
+                <Route path={'/reminiscences'}>
+                    <div className={"poemContainer"}>
+                        <Reminiscences/>
+                    </div>
+                </Route>
+                <Route path={'/theseconddream'}>
+                    <div className={"poemContainer"}>
+                        <TheSecondDream/>
                     </div>
                 </Route>
                 <Route path={'/act-ii'}>

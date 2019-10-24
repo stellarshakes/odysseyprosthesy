@@ -5,9 +5,9 @@ import NavBar from "../components/NavBar";
 import TextLink from "../components/TextLink";
 import ScrollToTop from "../components/ScrollToTop"
 
-function PenelopesShroud() {
+function PenelopeandtheShroud() {
         return (
-        <div className='poem PenelopesShroud setPenelope'>
+        <div className='poem PenelopeandtheShroud setPenelope'>
             <h2>Penelope's Shroud</h2>
             <p>
            		I am no clear lyre<br/>
@@ -45,16 +45,13 @@ function PenelopesShroud() {
 				They reach for an anchor<br/>
 				and are choked by fresh morning with droplets<br/>
 				<br/>
-				<TextLink link={'/phemios'} class={"text-button text-button-penelope"} text={"←"}/> 
-				<div class="indent"> </div> 
-				<TextLink link={'/act-ii'} class={"text-button text-button-penelope"} text={"⌂"}/>
-				<div class="indent"> </div> 
-				<TextLink link={'/penelope'} class={"text-button text-button-penelope"} text={"→"}/><br/>
+				<TextLink link={'/interview'} class={"text-button text-button-odysseus"} text={"←"}/><br/>
 				<br/>
             </p>
             <ScrollToTop/>
+            <NavBar/>
         </div>
     )
 }
 
-export default PenelopesShroud
+export default PenelopeandtheShroud

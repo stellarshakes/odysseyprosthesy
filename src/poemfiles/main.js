@@ -292,8 +292,8 @@ function Main() {
 					<div class='threadttext'><CycleSpan entries={["poor","dear","lonely"]}/></div><div class="indent9"> </div>am<br/>
 					<div class="indent"> </div>mother<div class="indent10"> </div>a<div class="indent"> </div><br/>
 					comfort<div class="indent10"> </div>study<br/>
-					<div class="indent10"> </div><div class="indent2"> </div>in<br/>
-					<div class="indent10"> </div><div class="indent2"> </div>solitude<br/>
+					<div class="indent10"> </div><div class="indent3"> </div>in<br/>
+					<div class="indent10"> </div><div class="indent4"> </div>solitude<br/>
 				</div>
 			</td>
 			<td className='bkfour threado'>
@@ -763,9 +763,155 @@ function Main() {
 					once again<div class="indent9"></div>hear<div class="indent"></div><br/>
 					<div class="indent10"></div><div class="indent"></div>his<br/>
 					across the town<div class="indent9"></div>voice<div class="indent"></div><br/>
-					past my old dog<div class="indent10"></div><div class="indent3"></div><br/>
+					past my old <TextLink link={'/thedogdies'} class={"text-button text-button-odysseus"} text={"dog"}/><div class="indent10"></div><div class="indent3"></div><br/>
 					through the gates<div class="indent10"></div><div class="indent3"></div><br/>
 					<br/>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td className='bkeighteen threadt'>
+				<div className='threadttext'>
+					<br/>
+					and<br/>
+					among<br/>
+					them<br/>
+					whose<br/>
+					loyalty<br/>
+					we<br/>
+					can<br/>
+					trust<br/>
+					<br/>
+					<br/>
+				</div>
+			</td>
+			<td className='bkeighteen threado'>
+				<div className='threadotext'>
+					home<br/>
+					<br/>
+					<br/>
+					Our ungracious guests<br/>
+					were eating their way<br/>
+					through their overstayed welcome<br/>
+					<br/>
+					and that<br/>
+					was the least<br/>
+					of their charges<br/>
+					<br/>
+				</div>
+			</td>
+			<td className='bkeighteen threadp'>
+				<div className='threadptext'>
+					<br/>
+					<br/>
+					Even Telemachos<br/>
+					returned to me<br/>
+					whole<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td className='bknineteen threadt'>
+				<div className='threadttext'>
+					<br/>
+					It won't<br/>
+					take much<br/>
+					to<br/>
+					win them<br/>
+					over<br/>
+					<br/>
+					<br/>
+					<br/>
+					Our<br/>
+					loyal<br/>
+					household<br/>
+					wants<br/>
+					those<br/>
+					reckless<br/>
+					brutes<br/>
+					out<br/>
+					just as much<br/>
+					as we do<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+				</div>
+			</td>
+			<td className='bknineteen threado'>
+				<div className='threadotext'>
+					<br/>
+					<br/>
+					Penelope<br/>
+					noticed me<br/>
+					such as I was<br/>
+					and<br/>
+					<br/>
+					after<br/>
+					an<br/>
+					eternity<br/>
+					of<br/>
+					waiting<br/>
+					<br/>
+					we spoke<br/>
+					<br/>
+					again<br/>
+					<br/>
+					<br/>
+					My fingernails<br/>
+					chewed my palms<br/>
+					raw<br/>
+					<br/>
+					such<br/>
+					was the grief<br/>
+					<CycleSpan entries={["her smile","her tale","her tears"]}/><br/>
+					drew out<br/>
+					<br/>
+					<br/>
+				</div>
+			</td>
+			<td className='bknineteen threadp'>
+				<div className='threadptext'>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					So<br/>
+					I<br/>
+					buy<br/>
+					him<br/>
+					<TextLink link={'/penelopesshroudends'} class={"text-button text-button-penelope"} text={"three"}/><br/>
+					<TextLink link={'/penelopesshroudends'} class={"text-button text-button-penelope"} text={"years"}/><br/>
+					<br/>
+					right under<br/>
+					those suitors'<br/>
+					brutish<br/>
+					reckless<br/>
+					noses<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					The gods<br/>
+					conjure him<br/>
+					in<br/>
+					<TextLink link={'/theseconddream'} class={"text-button text-button-penelope"} text={"dreams"}/><br/>
+
 				</div>
 			</td>
 		</tr>

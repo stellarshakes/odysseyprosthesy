@@ -1,13 +1,12 @@
 import React from 'react'
 import CycleSpan from "../components/CycleSpan";
 import {Link} from 'react-router-dom'
-import NavBar from "../components/NavBar";
 import TextLink from "../components/TextLink";
 import ScrollToTop from "../components/ScrollToTop"
 
-function PenelopesShroud() {
+function PenelopesShroudEnds() {
         return (
-        <div className='poem PenelopesShroud setPenelope'>
+        <div className='poem PenelopesShroudEnds setPenelope'>
             <h2>Penelope's Shroud</h2>
             <p>
            		I am no clear lyre<br/>
@@ -45,11 +44,11 @@ function PenelopesShroud() {
 				They reach for an anchor<br/>
 				and are choked by fresh morning with droplets<br/>
 				<br/>
-				<TextLink link={'/phemios'} class={"text-button text-button-penelope"} text={"←"}/> 
+				<TextLink link={'/farewellrecalled'} class={"text-button text-button-penelope"} text={"←"}/> 
 				<div class="indent"> </div> 
 				<TextLink link={'/act-ii'} class={"text-button text-button-penelope"} text={"⌂"}/>
 				<div class="indent"> </div> 
-				<TextLink link={'/penelope'} class={"text-button text-button-penelope"} text={"→"}/><br/>
+				<TextLink link={'/theseconddream'} class={"text-button text-button-penelope"} text={"→"}/><br/>
 				<br/>
             </p>
             <ScrollToTop/>
@@ -57,4 +56,4 @@ function PenelopesShroud() {
     )
 }
 
-export default PenelopesShroud
+export default PenelopesShroudEnds
