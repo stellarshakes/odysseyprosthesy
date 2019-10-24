@@ -862,7 +862,7 @@ function Main() {
 					of<br/>
 					waiting<br/>
 					<br/>
-					we spoke<br/>
+					<TextLink link={'/interview'} class={"text-button text-button-odysseus"} text={"we spoke"}/><br/>
 					<br/>
 					again<br/>
 					<br/>
@@ -890,8 +890,8 @@ function Main() {
 					I<br/>
 					buy<br/>
 					him<br/>
-					<TextLink link={'/penelopesshroudends'} class={"text-button text-button-penelope"} text={"three"}/><br/>
-					<TextLink link={'/penelopesshroudends'} class={"text-button text-button-penelope"} text={"years"}/><br/>
+					<TextLink link={'/penelopesshroudends'} class={"text-button text-button-penelope"} text={"three years"}/><br/>
+					<br/>
 					<br/>
 					right under<br/>
 					those suitors'<br/>
@@ -908,8 +908,68 @@ function Main() {
 					The gods<br/>
 					conjure him<br/>
 					in<br/>
-					<TextLink link={'/theseconddream'} class={"text-button text-button-penelope"} text={"dreams"}/><br/>
-
+					<TextLink link={'/theseconddream'} class={"text-button text-button-penelope"} text={"dreams"}/>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td className='bktwenty threadt'>
+				<div className='threadttext'>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+				</div>
+			</td>
+			<td className='bktwenty threado'>
+				<div className='threadotext'>
+					She instructed<br/>
+					Eurycleia<br/>
+					to wash<br/>
+					my feet<br/>
+					sore from travelling<br/>
+					<br/>
+					An old <TextLink link={'/eurycleiasrecognition'} class={"text-button text-button-odysseus"} text={"scar"}/><br/>
+					gave me away<br/>
+					but<br/>
+					I swore her to secrecy<br/>
+					<br/>
+					the plan<br/>
+					to reclaim our home<br/>
+					was still safe<br/>
+					<br/>
+					<br/>
+				</div>
+			</td>
+			<td className='bktwenty threadp'>
+				<div className='threadptext'>
+					upon<br/>
+					dreams<br/>
+					<br/>
+					and<br/>
+					I<br/>
+					endure<br/>
+					them<br/>
+					<CycleSpan entries={["and the men","and the pressure to marry","and the pressure to not marry"]}/><br/>
+					<br/>
+					<br/>
+					patiently<br/>
+					<br/>
+					<br/>
+					<br/>
+					I've had<br/>
+					considerable practise<br/>
 				</div>
 			</td>
 		</tr>

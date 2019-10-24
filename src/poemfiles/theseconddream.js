@@ -50,39 +50,41 @@ function TheSecondDream() {
 			S<br/>
 			&ensp;w<br/>
 			&ensp;&ensp;o<br/>
-			&ensp;&ensp;&ensp;o<div class="indent3"></div>down<br/>
-			&ensp;&ensp;&ensp;&ensp;p                             from<br/>
-			&ensp;&ensp;&ensp;&ensp;&ensp;i                              the<br/>
-			&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;n                           hills<br/>
-			&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;g                                ,<br/>
+			&ensp;&ensp;&ensp;o<div class="indent3"> </div>down<br/>
+			&ensp;&ensp;&ensp;&ensp;p<div class="indent3"></div>from<br/>
+			&ensp;&ensp;&ensp;&ensp;&ensp;i<div class="indent3"></div>the<br/>
+			&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;n<div class="indent2">&ensp; </div>hills<br/>
+			&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;g<div class="indent3"></div>,<br/>
 			<br/>
 			a blade-keen eagle<br/>
-			      breaks<br/>
-			      their<br/>
-			      necks,<br/>
+			<div class="indent5"></div>breaks<br/>
+			<div class="indent4"></div>their<br/>
+			<div class="indent5"></div>necks,<br/>
 			<br/>
-			leaves me            to weep,<br/>
-			        alone<br/>
 			<br/>
-			    . <br/>
-			  away<br/>
-			soars<br/>
+			leaves me<div class="indent3"></div>to weep,<br/>
+			<div class="indent3"></div>alone<br/>
+			<br/>
+			<div class="indent3">&emsp;</div>. <br/>
+			<div class="indent2">&ensp;</div>away<br/>
+			<div class="indent"></div>soars<br/>
 			and <br/>
 			 <br/>
 			 <br/>
-			    My maids<br/>
-			    find me like this  bent<br/>
-			           ,         .<br/>
+			<div class="indent">&ensp;</div>My maids<br/>
+			find me like this&emsp;bent<br/>
+			<div class="indent4"></div>,<div class="indent"></div>.<br/>
 			<br/>
 			Circling<br/>
 			back<br/>
 			to me,<br/>
 			the eagle<br/>
 			<br/>
-			perches<br/>
+			<div class="indent2"></div>perches<br/>
 			<br/>
 			and somehow speaks:<br/>
 			"<br/>
+			<div className='blockquote'>
 			Be comforted<br/>
 			<br/>
 			This dream will<br/>
@@ -95,21 +97,17 @@ function TheSecondDream() {
 			restless<br/>
 			revenant<br/>
 			ready<br/>
-			    "<br/>
-			.<br/>
-			.<br/>
-			      .<br/>
+			    <div class="indent4">&emsp;</div>"<br/></div>
+			<div class="indent6"></div>.<br/>
+			<div class="indent4"></div>.<br/>
+			<div class="indent3"></div>.<br/>
 			      <br/>
 			
-			<blockquote>indented text</blockquote>
-
-			<div class="indent"></div>
-
-			<TextLink link={'/lastpoeminthisthread'} class={"text-button text-button-character"} text={"←"}/> 
+			<TextLink link={'/penelopesshroudends'} class={"text-button text-button-penelope"} text={"←"}/> 
 			<div class="indent"> </div> 
-			<TextLink link={'/act-ii'} class={"text-button text-button-character"} text={"⌂"}/>
+			<TextLink link={'/act-ii'} class={"text-button text-button-penelope"} text={"⌂"}/>
 			<div class="indent"> </div> 
-			<TextLink link={'/nextpoeminthisthread'} class={"text-button text-button-character"} text={"→"}/><br/>
+			<TextLink link={'/thethirddream'} class={"text-button text-button-penelope"} text={"→"}/><br/>
 			<br/>
 
 		</p>

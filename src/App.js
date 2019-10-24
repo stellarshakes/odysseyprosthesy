@@ -30,6 +30,7 @@ import FarewellRecalled from './poemfiles/farewellrecalled';
 import CharonMeetsArgos from './poemfiles/charonmeetsargos';
 import Interview from './poemfiles/interview';
 import PenelopeandtheShroud from './poemfiles/penelopeandtheshroud';
+import PenelopesShroudEnds from './poemfiles/penelopesshroudends';
 import EurycleiasRecognition from './poemfiles/eurycleiasrecognition';
 import Reminiscences from './poemfiles/reminiscences';
 import TheSecondDream from './poemfiles/theseconddream';
@@ -191,6 +192,11 @@ function App() {
                 <Route path={'/penelopeandtheshroud'}>
                     <div className={"poemContainer"}>
                         <PenelopeandtheShroud/>
+                    </div>
+                </Route>
+                <Route path={'/penelopesshroudends'}>
+                    <div className={"poemContainer"}>
+                        <PenelopesShroudEnds/>
                     </div>
                 </Route>
                 <Route path={'/eurycleiasrecognition'}>

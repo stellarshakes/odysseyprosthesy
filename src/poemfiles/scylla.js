@@ -48,7 +48,7 @@ function Scylla() {
 			of all his wanderings on the sea<br/>
 			<br/>
 
-			TextLink link={'/sirens'} class={"text-button text-button-odysseus"} text={"←"}/> 
+			<TextLink link={'/sirens'} class={"text-button text-button-odysseus"} text={"←"}/> 
 			<div class="indent"> </div> 
 			<TextLink link={'/act-ii'} class={"text-button text-button-odysseus"} text={"⌂"}/>
 			<div class="indent"> </div> 
