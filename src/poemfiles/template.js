@@ -31,7 +31,7 @@ function PoemTitle() {
 			Page text
 			</a><br/>
 
-			<div class="indent">text or space</div>
+			<div class="indent"></div>
 
 			<TextLink link={'/nextpoeminthisthread'} class={"text-button text-button-character"} text={"Character"}/> 
 			| 

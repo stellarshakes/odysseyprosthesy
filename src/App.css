@@ -283,6 +283,18 @@ correct for shaded bubbles: rgba(217, 179, 252, 0.6)
   text-decoration: none;
 }
 
+.headrow .threadttext {
+  color: rgba(179,0,255,0.6);
+}
+
+.headrow .threadotext {
+  color: rgba(235,0,42,0.6);
+}
+
+.headrow .threadptext {
+  color: rgba(0,130,250,0.6)
+}
+
 td {
   padding-left: 100px;
   padding-right: 100px;

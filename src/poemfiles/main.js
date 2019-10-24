@@ -7,6 +7,29 @@ function Main() {
 	return (
 		<div className='main poemContainer'>
 		<table className='allthreads'>
+			<tr className='headrow'>
+				<td className='threadt'>
+					<div className='threadttext'>
+						<br/><br/>
+						Telemachos
+						<br/><br/>
+					</div>
+				</td>
+				<td className='threadp'>
+					<div className='threadptext'>
+						<br/><br/>
+						Penelope
+						<br/><br/>
+					</div>
+				</td>
+				<td className='threado'>
+					<div className='threadotext'>
+						<br/><br/>
+						Odysseus
+						<br/><br/>
+					</div>
+				</td>
+			</tr>
 			<tr>
 				<td className='bkone threadt'>
 					<div className='threadttext'>
@@ -1082,23 +1105,23 @@ function Main() {
 			</td>
 			<td className='bknumber threado threadp intersection' colspan='2'>
 				<div >
-					<div class="indent"></div>These men<br/>
-					<div class="indent"></div>don't understand<br/>
-					<div class="indent"></div>the meaning<br/>
-					Penelope<div class="indent"></div>of<br/>
-					was perspicacious<div class="indent"></div>no<br/>
-					<div class="indent"></div>
-					<div class="indent"></div>They accept<br/>
-					Her<div class="indent"></div>the<br/>
-					challenge<br/>
-					and fail<div class="indent"></div>for<br/>
-					one<div class="indent"></div>her suitors<br/>
-					by<div class="indent"></div>with my old bow<br/>
-					one<div class="indent"></div>was the perfect start<br/>
+					<div class="indent10"></div><div class="indent2"></div>These men<br/>
+					<div class="indent10"></div>don't understand<br/>
+					<div class="indent8"></div>the meaning<br/>
+					Penelope<div class="indent7"></div>of<div class="indent2"></div><br/>
+					was perspicacious<div class="indent5"></div>no<div class="indent3"></div><br/>
 					<div class="indent"></div><br/>
-					Except one<div class="indent"></div>Even Athena<br/>
-					<div class="indent"></div>had not<br/>
-					<div class="indent"></div>expected it<br/>
+					<div class="indent5"></div>They accept<br/>
+					Her<div class="indent2"></div>the<br/>
+					<TextLink link={'/odysseusproof'} class={"text-button"} text={"challenge"}/><br/>
+					and fail<div class="indent2"></div>for<div class="indent"></div><br/>
+					<div class="indent"></div>one<div class="indent4"></div>her suitors<br/>
+					<div class="indent2"></div>by<div class="indent5"></div>with my old bow<br/>
+					<div class="indent3"></div>one<div class="indent7"></div>was the perfect start<br/>
+					<div class="indent"></div><br/>
+					<div class="indent"></div>except one<div class="indent9"></div>Even Athena<br/>
+					<div class="indent10"></div>&ensp;<div class="indent2"></div>had not<br/>
+					<div class="indent10"></div>&ensp;<div class="indent2"></div>expected it<br/>
 					<br/>
 				</div>
 			</td>

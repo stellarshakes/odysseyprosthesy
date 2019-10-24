@@ -37,6 +37,7 @@ import TheSecondDream from './poemfiles/theseconddream';
 import Reckoning from './poemfiles/reckoning';
 import OdysseusReturning from './poemfiles/odysseusreturning';
 import TheKingReturns from './poemfiles/thekingreturns';
+import OdysseusProof from './poemfiles/odysseusproof';
 
 import IntroPage from "./components/introPage";
 import Main from './poemfiles/main';
@@ -230,6 +231,11 @@ function App() {
                 <Route path={'/thekingreturns'}>
                     <div className={"poemContainer"}>
                         <TheKingReturns/>
+                    </div>
+                </Route>
+                <Route path={'/odysseusproof'}>
+                    <div className={"poemContainer"}>
+                        <OdysseusProof/>
                     </div>
                 </Route>
                 <Route path={'/act-ii'}>
