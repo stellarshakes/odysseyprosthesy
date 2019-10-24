@@ -459,7 +459,8 @@ function Main() {
 	</table>
 			
 
-		Template for 3-cell rows
+		Template for 3-cell rows<br/>
+		TEST 2
 
 		<tr>
 			<td className='bknumber threadinitial'>
