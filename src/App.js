@@ -36,8 +36,8 @@ import TheSecondDream from './poemfiles/theseconddream';
 
 import IntroPage from "./components/introPage";
 import Main from './poemfiles/main';
-import {Switch, Route} from 'react-router-dom'
-import NavBar from "./components/NavBar";
+import {Route, Switch} from 'react-router-dom'
+import ScrollRestore from "./components/ScrollRestore";
 
 function App() {
     return (
@@ -210,13 +210,13 @@ function App() {
                 </Route>
                 <Route path={'/act-ii'}>
                     <div className={"poemContainer"}>
+                        <ScrollRestore />
                         <Main/>
                     </div>
                 </Route>
                 <Route path={'/'}>
                     <IntroPage/>
                 </Route>
-
             </Switch>
         </div>
     );
