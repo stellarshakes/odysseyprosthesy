@@ -288,7 +288,8 @@ function Main() {
 					will<div class="indent5"> </div><br/>
 					<div class="indent3"> </div>bring<div class="indent7"> </div>To the gods<br/>
 					<div class="indent2"> </div>my<div class="indent9"> </div>I<div class="indent"> </div><br/>
-					<div class="indent"> </div><CycleSpan entries={["poor","dear","lonely"]}/><div class="indent9"> </div>am<br/>
+					<div class="indent"> </div>
+					<div class='threadttext'><CycleSpan entries={["poor","dear","lonely"]}/></div><div class="indent9"> </div>am<br/>
 					<div class="indent"> </div>mother<div class="indent10"> </div>a<div class="indent"> </div><br/>
 					comfort<div class="indent10"> </div>study<br/>
 					<div class="indent10"> </div><div class="indent2"> </div>in<br/>
@@ -344,6 +345,116 @@ function Main() {
 				</div>
 			</td>
 		</tr>
+		<tr>
+			<td className='bkfive threadt'>
+				<div className='threadttext'>
+				/
+				</div>
+			</td>
+			<td className='bkfive threadp threado intersection' colspan='2'>
+				<div>
+					<br/>
+					Widowhood<div class="indent10"></div><div class="indent"></div><br/>
+					is not for me<div class="indent9"></div><br/>
+					<br/>
+					I<div class="indent9"></div><br/>
+					miss<div class="indent8"></div>and<br/>
+					his<div class="indent8"></div>my<br/>
+					<div class="indent"></div>
+					<div class='threadptext'>
+					<CycleSpan entries={["tempered","balsamic","bronze-swept"]}/></div>
+					<div class="indent6"></div>
+					<div class='threadotext'>
+					<CycleSpan entries={["dear","clever","extraordinary"]}/>&emsp;</div><br/>
+					voice<div class="indent6"></div>wife<br/>
+					<br/>
+					even<div class="indent4"></div>with<br/>
+					thick<div class="indent3"></div>just<br/>
+					with<div class="indent2"></div>clumsy<br/>
+					<TextLink link={'/farewell'} class={"text-button"} text={"farewells"}/><br/>
+					<br/>
+					<div class="indent3"></div>I miss<br/>
+					<div class="indent6"></div>my best friend<br/>
+					<br/>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			</td>
+			<td className='bksixfourteen threado'>
+				<div className='threadotext'>
+					The war<br/>
+					lasted ten years<br/>
+					<br/>
+					Ogygia<br/>
+					nearly as long<br/>
+					<br/>
+					<br/>
+					The <TextLink link={'/calypso'} class={"text-button text-button-odysseus"} text={"missive"}/><br/>
+					came<br/>
+					eventually<br/>
+					<br/>
+					and<br/>
+					I was<br/>
+					<CycleSpan entries={["finally","suspiciously","impossibly"]}/><br/>
+					free<br/>
+					<br/>
+					<br/>
+					<CycleSpan entries={["Thanks to Athena","Thanks to Ino","Despite Poseidon"]}/><br/>
+					I washed up<br/>
+					on Phaeakia<br/>
+					<br/>
+					cloaked<br/>
+					the last embers<br/>
+					of my life<br/>
+					under a tree<br/>
+					<br/>
+					<br/>
+					until<br/>
+					a<br/>
+					<TextLink link={'/nausikaa'} class={"text-button text-button-odysseus"} text={"princess"}/><br/>
+					woke<br/>
+					me<br/>
+					<br/>
+					clothed me<br/>
+					<br/>
+					guided me<br/>
+					all<br/>
+					the<br/>
+					way<br/>
+					back<br/>
+					to her home<br/>
+					<br/>
+					<br/>
+					Her parents<br/>
+					were<br/>
+					gracious hosts<br/>
+					<br/>
+					but<br/>
+					I could not<br/>
+					stomach<br/>
+					all the fine things<br/>
+					<br/>
+					mellow wine<br/>
+					<TextLink link={'/demodokos'} class={"text-button text-button-odysseus"} text={"lyresong"}/><br/>
+					races and dances<br/>
+					<br/>
+					that<br/>
+					they had<br/>
+					to offer<br/>
+					<br/>
+					<br/>
+					I was<br/>
+					<CycleSpan entries={["still","only","always"]}/><br/>
+					hungry<br/>
+					for Ithaki<br/>
+					<br/>
+				</div>
+			</td>
+			<td>
+			</td>
+		</tr>
 
 	</table>
 			
@@ -371,7 +482,7 @@ function Main() {
 		<p>
 
 			<br/>
-			<TextLink link={'/subpoem'} class={"text-button text-button-character"} text={"verse"}/> 
+			<TextLink link={'/subpoem'} class={"text-button text-button-character"} text={"verse"}/>
 			
 		</p>
 		</div>

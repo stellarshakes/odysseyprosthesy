@@ -2,6 +2,7 @@ import React from 'react'
 import CycleSpan from "../components/CycleSpan";
 import TextLink from "../components/TextLink";
 import NavBar from "../components/NavBar";
+import ScrollToTop from "../components/ScrollToTop"
 
 function Calypso() {
 	return (
@@ -39,11 +40,11 @@ function Calypso() {
 			I return to my garden<br/>
 			or does Zeus want that, too?<br/>
 			<br/>
-			<TextLink link={'/nausikaa'} class={"text-button text-button-odysseus"} text={"→"}/>
+			<TextLink link={'/nausikaa'} class={"text-button text-button-odysseus"} text={"→"}/><br/>
 			<br/>
 
 		</p>
-		<NavBar/>
+		<ScrollToTop/>
 		</div>
 	)
 }
