@@ -213,14 +213,6 @@ correct for shaded bubbles: rgba(217, 179, 252, 0.6)
     background-color: antiquewhite;
 }
 
-.poem1 .cycleSpan {
-    background-color: blue;
-}
-
-.poem1 .paragraph .cycleSpan {
-    background-color: red;
-}
-
 .qr {
   border: solid;
   padding: 10px 10px 20px 10px;
@@ -259,11 +251,6 @@ correct for shaded bubbles: rgba(217, 179, 252, 0.6)
   text-decoration: none;
 }
 
-/*
-.threadttext:hover {
-  color: rgba(179, 0, 255, 0.6) 
-}
-*/
 .threadotext {
   display: inline;
 }
@@ -280,11 +267,6 @@ correct for shaded bubbles: rgba(217, 179, 252, 0.6)
   text-decoration: none;
 }
 
-/*
-.threadotext:hover {
-  color: rgba(235,0,42,0.6);
-}
-*/
 .threadptext {
   display: inline;
 }
@@ -300,12 +282,7 @@ correct for shaded bubbles: rgba(217, 179, 252, 0.6)
   color: black;
   text-decoration: none;
 }
-/*
-.threadptext:hover {
-  color: rgba(0,130,250,0.6);
-  display: inline;
-}
-*/
+
 td {
   padding-left: 100px;
   padding-right: 100px;

@@ -23,7 +23,7 @@ function PoemTitle() {
 			This cycle stops
 			<StopCycleSpan entries={[
                 "entry1","entry2","entry3"
-            ]} className={"cycleSpan"}/>
+            ]} className={"cycleSpan"} lastClassName={"finalCycleSpan"}/>
 
             This cycle doesn't stop
 			<CycleSpan entries={["entry1","entry2","entry3"]}/>
@@ -41,7 +41,7 @@ function PoemTitle() {
 			
 			OR
 
-			TextLink link={'/lastpoeminthisthread'} class={"text-button text-button-character"} text={"←"}/> 
+			<TextLink link={'/lastpoeminthisthread'} class={"text-button text-button-character"} text={"←"}/> 
 			<div class="indent"> </div> 
 			<TextLink link={'/act-ii'} class={"text-button text-button-character"} text={"⌂"}/>
 			<div class="indent"> </div> 

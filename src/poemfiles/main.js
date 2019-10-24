@@ -348,7 +348,7 @@ function Main() {
 		<tr>
 			<td className='bkfive threadt'>
 				<div className='threadttext'>
-				/
+				
 				</div>
 			</td>
 			<td className='bkfive threadp threado intersection' colspan='2'>
@@ -382,7 +382,7 @@ function Main() {
 		<tr>
 			<td>
 			</td>
-			<td className='bksixfourteen threado'>
+			<td className='bksixten threado'>
 				<div className='threadotext'>
 					The war<br/>
 					lasted ten years<br/>
@@ -450,9 +450,127 @@ function Main() {
 					hungry<br/>
 					for Ithaki<br/>
 					<br/>
+					<br/>			
+					After<br/>
+					<CycleSpan entries={["enduring","repeating","reliving"]}/><br/>
+					every<br/>
+					encounter<br/>
+					with<br/>
+					<br/>
+					<TextLink link={'/polyphemos'} class={"text-button text-button-odysseus"} text={"man-eaters"}/><br/>
+					<br/>
+					<TextLink link={'/aeaea'} class={"text-button text-button-odysseus"} text={"magic"}/><br/>
+					<br/>
 				</div>
 			</td>
 			<td>
+			</td>
+		</tr>
+		<tr>
+			<td className='bkelevenfourteen threadp'>
+
+			</td>
+			<td className='bkelevenfourteen threado'>
+				<div className='threadotext'>
+					<TextLink link={'/teiresiasprophecy'} class={"text-button text-button-odysseus"} text={"duty"}/><br/>
+					<br/>
+					<TextLink link={'/sirens'} class={"text-button text-button-odysseus"} text={"temptation"}/><br/>
+					<br/>
+					commuting<br/>
+					between<br/>
+					a <TextLink link={'/scylla'} class={"text-button text-button-odysseus"} text={"rock"}/><br/>
+					and a <TextLink link={'/charybdis'} class={"text-button text-button-odysseus"} text={"hard place"}/><br/>
+					<br/>
+					<br/>
+					the gods<br/>
+					and the Phaeakians<br/>
+					granted<br/>
+					my<br/>
+					wish<br/>
+					<br/>
+					Home<br/>
+					<br/>
+					To Ithaki<br/>
+					<br/>
+					At last<br/>
+					after<br/>
+					an<br/>
+					eternity<br/>
+					of<br/>
+					waiting<br/>
+					returned to my native land!<br/>
+					<br/>
+					Strategist Athena<br/>
+					welcomed me<br/>
+					advised me<br/>
+					disguised me<br/>
+					<br/>
+					and<br/>
+					in the form of a beggar<br/>
+					I made my way to<br/>
+					Eumaeus' hut<br/>
+					<br/>
+					our faithful<br/>
+					old<br/>
+					swineherd<br/>
+					told me <TextLink link={'/ctimene'} class={"text-button text-button-odysseus"} text={"stories"}/><br/>
+					of my family<br/>
+					and the wretched state<br/>
+					of my home<br/>
+					<br/>
+					<br/>
+				</div>
+			</td>
+			<td className='bkelevenfourteen threadt'>
+				<div className='threadttext'>
+					<br/>
+					A god<br/>
+					guides<br/>
+					me<br/>
+					into<br/>
+					a<br/>
+					safe<br/>
+					port<br/>
+					<br/>
+					<br/>
+					I did not learn<br/>
+					what I had set out<br/>
+					to learn<br/>
+					<br/>
+					<br/>
+					<br/>
+					my father is still missing<br/>
+					<br/>
+					my mother needs me now<br/>
+					<br/>
+					Perhaps<br/>
+					I should be<br/>
+					at home<br/>
+					<br/>
+					<br/>
+					First<br/>
+					I will stop<br/>
+					by Eumaeus' house<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					he has been<br/>
+					enduringly<br/>
+					loyal<br/>
+					to our family<br/>
+					<br/>
+					even<br/>
+					especially<br/>
+					under the abuse<br/>
+					of those<br/>
+					suitor-tyrants<br/>
+					<br/>
+					<br/>
+					<br/>
+				</div>
 			</td>
 		</tr>
 

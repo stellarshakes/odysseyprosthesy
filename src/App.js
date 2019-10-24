@@ -19,8 +19,13 @@ import Nausikaa from './poemfiles/nausikaa';
 import Demodokos from './poemfiles/demodokos';
 import Polyphemos from './poemfiles/polyphemos';
 import Circe from './poemfiles/circe';
+import TeiresiasProphecy from './poemfiles/teiresiasprophecy';
+import TheSirens from './poemfiles/thesirens';
+import Scylla from './poemfiles/scylla';
+import Charybdis from './poemfiles/charybdis';
+import Ctimene from './poemfiles/ctimene';
+import TheBoarHunt from './poemfiles/theboarhunt';
 
-import Poem1 from './poemfiles/poem1';
 import IntroPage from "./components/introPage";
 import Main from './poemfiles/main';
 import {Switch, Route} from 'react-router-dom'
@@ -125,6 +130,36 @@ function App() {
                         <Circe/>
                     </div>
                 </Route>
+                <Route path={'/teiresiasprophecy'}>
+                    <div className={"poemContainer"}>
+                        <TeiresiasProphecy/>
+                    </div>
+                </Route>
+                <Route path={'/sirens'}>
+                    <div className={"poemContainer"}>
+                        <TheSirens/>
+                    </div>
+                </Route>
+                <Route path={'/scylla'}>
+                    <div className={"poemContainer"}>
+                        <Scylla/>
+                    </div>
+                </Route>
+                <Route path={'/charybdis'}>
+                    <div className={"poemContainer"}>
+                        <Charybdis/>
+                    </div>
+                </Route>
+                <Route path={'/ctimene'}>
+                    <div className={"poemContainer"}>
+                        <Ctimene/>
+                    </div>
+                </Route>
+                <Route path={'/theboarhunt'}>
+                    <div className={"poemContainer"}>
+                        <TheBoarHunt/>
+                    </div>
+                </Route>
                 <Route path={'/act-ii'}>
                     <div className={"poemContainer"}>
                         <Main/>
@@ -140,30 +175,3 @@ function App() {
 }
 
 export default App;
-
-        /* This was under <NavBar/> and in the className='App' <div> 
-        I muted because it was replicating the pages' contents
-            <div>
-                <Switch>
-                    <Route path={'/theveil'}>
-                        <TheVeil/>
-                    </Route>
-                    <Route path={'/phemios'}>
-                        <Phemios/>
-                    </Route>
-                    <Route path={'/despair'}>
-                        <Despair/>
-                    </Route>
-                    <Route path={'/halithersesprophecy'}>
-                        <HalithersesProphecy/>
-                    </Route>
-                    <Route path={'/babytelemachos'}>
-                        <BabyTelemachos/>
-                    </Route>
-                    <Route path={'/'}>
-                        <IntroPage/>
-                    </Route>
-                </Switch>
-            </div>
-
-            */
