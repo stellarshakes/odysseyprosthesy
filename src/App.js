@@ -27,6 +27,7 @@ import Ctimene from './poemfiles/ctimene';
 import TheBoarHunt from './poemfiles/theboarhunt';
 import OdysseusMeetsHisSon from './poemfiles/odysseusmeetshisson';
 import FarewellRecalled from './poemfiles/farewellrecalled';
+import CharonMeetsArgos from './poemfiles/charonmeetsargos';
 
 import IntroPage from "./components/introPage";
 import Main from './poemfiles/main';
@@ -170,6 +171,11 @@ function App() {
                 <Route path={'/farewellrecalled'}>
                     <div className={"poemContainer"}>
                         <FarewellRecalled/>
+                    </div>
+                </Route>
+                <Route path={'/thedogdies'}>
+                    <div className={"poemContainer"}>
+                        <CharonMeetsArgos/>
                     </div>
                 </Route>
                 <Route path={'/act-ii'}>

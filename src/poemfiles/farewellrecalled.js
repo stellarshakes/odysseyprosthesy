@@ -68,7 +68,7 @@ function FarewellRecalled() {
 			Time to put this right hand to work<br/>
 			<br/>
 
-			<TextLink link={'/charonmeetsargos'} class={"text-button text-button-odysseus"} text={"Odysseus"}/> 
+			<TextLink link={'/thedogdies'} class={"text-button text-button-odysseus"} text={"Odysseus"}/> 
 			| 
 			<TextLink link={'/penelopesshroud'} class={"text-button text-button-penelope"} text={"Penelope"}/><br/>
 		</p>
