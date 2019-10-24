@@ -25,6 +25,7 @@ import Scylla from './poemfiles/scylla';
 import Charybdis from './poemfiles/charybdis';
 import Ctimene from './poemfiles/ctimene';
 import TheBoarHunt from './poemfiles/theboarhunt';
+import OdysseusMeetsHisSon from './poemfiles/odysseusmeetshisson';
 
 import IntroPage from "./components/introPage";
 import Main from './poemfiles/main';
@@ -158,6 +159,11 @@ function App() {
                 <Route path={'/theboarhunt'}>
                     <div className={"poemContainer"}>
                         <TheBoarHunt/>
+                    </div>
+                </Route>
+                <Route path={'/odysseusmeetshisson'}>
+                    <div className={"poemContainer"}>
+                        <OdysseusMeetsHisSon/>
                     </div>
                 </Route>
                 <Route path={'/act-ii'}>
