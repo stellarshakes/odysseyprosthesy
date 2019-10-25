@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import NavBar from "../components/NavBar";
+import TextLink from "../components/TextLink";
 import ScrollToTop from "../components/ScrollToTop"
 
 function Helen() {
@@ -83,10 +83,12 @@ function Helen() {
 			<br/>
 			<a className='hovertext' title='we will meet again someday'>
 			I hope to meet him soon
-			</a>
+			</a><br/>
+			<br/>
+			<TextLink link={'/thesuitorsconference'} class={"text-button"} text={"→"}/><br/>
+            <br/>
 		</p>
 		<ScrollToTop/>
-		<NavBar/>
 		</div>
 	)
 }

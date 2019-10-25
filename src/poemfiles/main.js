@@ -978,7 +978,7 @@ function Main() {
 			<td className='bktwenty threadp'>
 				<div className='threadptext'>
 					upon<br/>
-					dreams<br/>
+					<TextLink link={'/thethirddream'} class={"text-button text-button-penelope"} text={"dreams"}/><br/>
 					<br/>
 					and<br/>
 					I<br/>

@@ -1,7 +1,6 @@
 import React from 'react'
 import TextLink from "../components/TextLink";
 import {Link} from 'react-router-dom'
-import NavBar from "../components/NavBar";
 import ScrollToTop from "../components/ScrollToTop"
 
 function Despair() {
@@ -11,10 +10,6 @@ function Despair() {
             <p>
             	My noble father<br/>
                 <TextLink link={'/babytelemachos'} class={"text-button"} text={"if he ever was"}/><br/>
-            	<div className='link'>
-            	<Link to={"/babytelemachos"}>
-                if he ever was
-            	</Link></div><br/>
 				lies somewhere in the sea, lies somewhere dead<br/>
 				and in his place are suitors<br/>
 				rich fine young men who said<br/>
@@ -42,10 +37,8 @@ function Despair() {
 				I really need him home<br/>
 				<br/>
 				<TextLink link={'/telemachosleaves'} class={"text-button"} text={"→"}/><br/>
-
             </p>
             <ScrollToTop/>
-            <NavBar/>
         </div>
     )
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import TextLink from "../components/TextLink";
 import ScrollToTop from "../components/ScrollToTop"
 
 function Penelope() {
@@ -22,7 +23,15 @@ function Penelope() {
                 go away in the end?<br/>
                 <br/>
                 My turn is surely next<br/>
-                to either leave or finally awaken
+                to either leave or finally awaken<br/>
+                <br/>
+
+                <TextLink link={'/penelopesshroud'} class={"text-button text-button-penelope"} text={"←"}/> 
+                <div class="indent"> </div> 
+                <TextLink link={'/act-ii'} class={"text-button text-button-penelope"} text={"⌂"}/>
+                <div class="indent"> </div> 
+                <TextLink link={'/helen'} class={"text-button text-button-penelope"} text={"→"}/><br/>
+                <br/>
             </p>
             <ScrollToTop/>
         </div>

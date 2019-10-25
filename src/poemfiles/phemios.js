@@ -1,6 +1,6 @@
 import React from 'react'
 import CycleSpan from "../components/CycleSpan";
-import NavBar from "../components/NavBar";
+import TextLink from "../components/TextLink";
 import ScrollToTop from "../components/ScrollToTop"
 
 function Phemios() {
@@ -37,6 +37,10 @@ function Phemios() {
 			with last night and its dreams<br/>
 			<br/>
 			but I will not find it here<br/>
+			<br/>
+
+			<TextLink link={'/penelopesshroud'} class={"text-button text-button-penelope"} text={"→"}/><br/>
+			<br/>
 			</p>
 			<ScrollToTop/>
 		</div>
