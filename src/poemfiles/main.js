@@ -1126,6 +1126,83 @@ function Main() {
 				</div>
 			</td>
 		</tr>
+		<tr>
+			<td className='bktwentytwo threadt'>
+				<div className='threadttext'>
+					excuse her<br/>
+					discreetly<br/>
+					to safety<br/>
+					<br/>
+					<br/>
+					I wonder<br/>
+					which one of them<br/>
+					I got<br/>
+					my brains<br/>
+					from<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					Gathering<br/>
+					help<br/>
+					wasn't too hard either<br/>
+					<br/>
+					I'm getting<br/>
+					pretty good at this<br/>
+					<br/>
+				</div>
+			</td>
+			<td className='bktwentytwo threadp'>
+				<div className='threadptext'>
+					<br/>
+					Telemachos knows<br/>
+					to let me leave<br/>
+					before<br/>
+					any<br/>
+					real<br/>
+					conflict<br/>
+					erupts<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+				</div>
+			</td>
+			<td className='bktwentytwo threado'>
+				<div className='threadotext'>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					Telemachos<br/>
+					had faithfully<br/>
+					gathered<br/>
+					our still-loyal servants<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+				</div>
+			</td>
+		</tr>
 
 	</table>
 			
