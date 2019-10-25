@@ -43,6 +43,7 @@ import Athena from './poemfiles/athena';
 import OdysseusProclamation from './poemfiles/odysseusproclamation';
 import ADistantBattle from './poemfiles/adistantbattle';
 import TheFairerExecution from './poemfiles/thefairerexecution';
+import WelcomeHome from './poemfiles/welcomehome';
 
 import IntroPage from "./components/introPage";
 import Main from './poemfiles/main';
@@ -266,6 +267,11 @@ function App() {
                 <Route path={'/thefairerexecution'}>
                     <div className={"poemContainer"}>
                         <TheFairerExecution/>
+                    </div>
+                </Route>
+                <Route path={'/welcomehome'}>
+                    <div className={"poemContainer"}>
+                        <WelcomeHome/>
                     </div>
                 </Route>
                 <Route path={'/act-ii'}>

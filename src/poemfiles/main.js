@@ -1339,7 +1339,7 @@ function Main() {
 					<br/>
 					then<br/>
 					the<br/>
-					loyal<br/>
+					<TextLink link={'/welcomehome'} class={"text-button text-button-odysseus"} text={"loyal"}/><br/>
 					<br/>
 				</div>
 			</td>
