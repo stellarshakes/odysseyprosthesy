@@ -147,9 +147,13 @@
   text-decoration: none;
 }
 
-.link {
-	color: red;
-	text-decoration: none;
+.invisible {
+  color: white;
+  display: inline;
+}
+
+.invisible:hover {
+  color: black;
 }
 
 .setPenelope .cycleSpan{
@@ -186,6 +190,18 @@
 	border-bottom-style: dotted;
   	border-bottom-color: rgba(235,0,42,0.6);
   	border-bottom-width: 2px;
+}
+
+.setTelemachos .cycleSpan{
+  background-color: white;
+  text-decoration: underline;
+  text-decoration-color: rgba(179,0,255,0.6);
+}
+
+.setTelemachos .cycleSpan:hover{
+  background-color: rgba(217, 179, 252, 0.6);
+  color: black;
+  text-decoration: none;
 }
 
 /* Telemachos purple

@@ -1143,13 +1143,6 @@ function Main() {
 					<br/>
 					<br/>
 					<br/>
-					Gathering<br/>
-					help<br/>
-					wasn't too hard either<br/>
-					<br/>
-					I'm getting<br/>
-					pretty good at this<br/>
-					<br/>
 				</div>
 			</td>
 			<td className='bktwentytwo threadp'>
@@ -1162,17 +1155,6 @@ function Main() {
 					real<br/>
 					conflict<br/>
 					erupts<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
 					<br/>
 					<br/>
 				</div>
@@ -1189,12 +1171,29 @@ function Main() {
 					<br/>
 					<br/>
 					<br/>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td className='bktwentytwo threadt'>
+				<div className='threadttext'>
+					Gathering<br/>
+					help<br/>
+					wasn't too hard either<br/>
+					<br/>
+					I'm getting<br/>
+					pretty good at this<br/>
+					<br/>
+				</div>
+			</td>
+			<td className='bktwentytwo threado' colspan='2'>
+				<div className='threadotext'>
 					<br/>
 					<br/>
-					Telemachos<br/>
-					had faithfully<br/>
-					gathered<br/>
-					our still-loyal servants<br/>
+					<div class="indent7"></div>Telemachos<br/>
+					<div class="indent2"></div>had faithfully<br/>
+					gathered<div class="indent3"></div><br/>
+					our still-loyal servants<div class="indent7"></div><br/>
 					<br/>
 					<br/>
 					<br/>
@@ -1206,12 +1205,154 @@ function Main() {
 		<tr>
 			<td className='bknumber threado threadt intersection' colspan='2'>
 				<div>
-					Text
+					With the loyalty<div class="indent10"></div><div class="indent4"></div><br/>
+					of our best servants<div class="indent10"></div><div class="indent2"></div><br/>
+					<div class="indent10"></div><div class="indent2"></div>with their help<br/>
+					and<div class="indent8"></div>and<div class="indent"></div><br/>
+					Athena<div class="indent5"></div>a little<div class="indent"></div><br/>
+					running<div class="indent5"></div><br/>
+					<TextLink link={'/athena'} class={"text-button"} text={"divine interference"}/><div class="indent"></div><br/>
+					<div class="indent"></div><br/>
+					we could<div class="indent2"></div><div className="threadttext"><CycleSpan entries={["Odysseus","the lion-hearted hero of Hellas","my dad"]}/></div><br/>
+					purge<div class="indent4"></div>won<br/>
+					our home<div class="indent4"></div>our home<br/>
+					of the parasites<div class="indent5"></div>back<div class="indent"></div><br/>
+					the bloated nobility of the Ionian<div class="indent8"></div><br/>
+					that infected it<div class="indent8"></div>and I<br/>
+					<div class="indent10"></div><div class="indent2"></div>was the one<br/>
+					The disguise<div class="indent10"></div>fighting<br/>
+					lifted<div class="indent10"></div><div class="indent2"></div>there<br/>
+					<div class="indent10"></div><div class="indent4"></div>with him<br/>
+					I was<div class="indent10"></div><div class="indent4"></div><br/>
+					<TextLink link={'/odysseusproclamation'} class={"text-button text-button-odysseus"} text={"myself"}/><div class="indent10"></div><div class="indent4"></div><br/>
+					again<div class="indent10"></div><div class="indent4"></div><br/>
 				</div>
 			</td>
 			<td className='bknumber threadp'>
 				<div className='threadptext'>
-					Text
+					<br/>
+					<br/>	
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					I can hear<br/>
+					their disappointed groans<br/>
+					from my bedroom<br/>
+					like bardsong<br/>
+					<br/>
+					but<br/>
+					some god<br/>
+					sends me<br/>
+					to sleep<br/>
+					before<br/>
+					I can know<br/>
+					the outcome<br/>
+					<br/>
+					<br/>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td className='bktwentytwo threado'>
+				<div className='threadotext'>
+					<br/>
+					<br/>
+					There was<br/>
+					a lot<br/>
+					of cleaning to be done<br/>
+					by the end<br/>
+					<br/>
+				</div>
+			</td>
+			<td className='bktwentytwo threadt'>
+				<div className='threadttext'>
+					
+				</div>
+			</td>
+			<td className='bktwentytwo threadp'>
+				<div className='threadptext'>
+					
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td className='bktwentytwo threado threadt intersection' colspan='2'>
+				<div>
+					Eurycleia<div class="indent10"></div>Our old nurse<br/>
+					under orders<div class="indent10"></div><br/>
+					<div class="indent"></div>had kept<div class="indent6"></div>had taken<br/>
+					our maids<div class="indent3"></div>the maids<br/>
+					safe<div class="indent2"></div><br/>
+					<TextLink link={'/adistantbattle'} class={"text-button"} text={"away"}/><br/>
+					<div class="indent3"></div>from the hall<br/>
+					somewhere safe<div class="indent4"></div><br/>
+					<br/>
+					but<div class="indent7"></div><br/>
+					will emerge<div class="indent6"></div>released them<br/>
+					soon<div class="indent8"></div>when it was quiet<br/>
+					and send them<div class="indent10"></div><div class="indent3"></div><br/>
+					to greet us<div class="indent10"></div><div class="indent3"></div><br/>
+					<br/>
+				</div>
+			</td>
+			<td className='bktwentytwo threadp'>
+				<div className='threadptext'>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td className='bktwentytwo threadt'>
+				<div className='threadttext'>
+					first<br/>
+					the<br/>
+					<TextLink link={'/thefairerexecution'} class={"text-button text-button-telemachos"} text={"treacherous"}/><br/>
+					<br/>
+					then<br/>
+					the<br/>
+					loyal<br/>
+					<br/>
+				</div>
+			</td>
+			<td className='bktwentytwo threado'>
+				<div className='threadotext'>
+					first<br/>
+					the<br/>
+					treacherous<br/>
+					<br/>
+					then<br/>
+					the<br/>
+					loyal<br/>
+					<br/>
+				</div>
+			</td>
+			<td className='bktwentytwo threadp'>
+				<div className='threadptext'>
+					Eurycleia<br/>
+					is<br/>
+					the<br/>
+					one<br/>
+					to<br/>
+					awaken<br/>
+					me<br/>
+					<br/>
 				</div>
 			</td>
 		</tr>

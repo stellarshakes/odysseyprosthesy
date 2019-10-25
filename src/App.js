@@ -39,6 +39,10 @@ import OdysseusReturning from './poemfiles/odysseusreturning';
 import TheKingReturns from './poemfiles/thekingreturns';
 import OdysseusProof from './poemfiles/odysseusproof';
 import TheThirdDream from './poemfiles/thethirddream';
+import Athena from './poemfiles/athena';
+import OdysseusProclamation from './poemfiles/odysseusproclamation';
+import ADistantBattle from './poemfiles/adistantbattle';
+import TheFairerExecution from './poemfiles/thefairerexecution';
 
 import IntroPage from "./components/introPage";
 import Main from './poemfiles/main';
@@ -242,6 +246,26 @@ function App() {
                 <Route path={'/thethirddream'}>
                     <div className={"poemContainer"}>
                         <TheThirdDream/>
+                    </div>
+                </Route>
+                <Route path={'/athena'}>
+                    <div className={"poemContainer"}>
+                        <Athena/>
+                    </div>
+                </Route>
+                <Route path={'/odysseusproclamation'}>
+                    <div className={"poemContainer"}>
+                        <OdysseusProclamation/>
+                    </div>
+                </Route>
+                <Route path={'/adistantbattle'}>
+                    <div className={"poemContainer"}>
+                        <ADistantBattle/>
+                    </div>
+                </Route>
+                <Route path={'/thefairerexecution'}>
+                    <div className={"poemContainer"}>
+                        <TheFairerExecution/>
                     </div>
                 </Route>
                 <Route path={'/act-ii'}>
