@@ -8,7 +8,7 @@ import ScrollToTop from "../components/ScrollToTop"
 function TheSecondDream() {
 	return (
 		<div className='poem TheSecondDream setPenelope'>
-		<h2>TheSecondDream</h2>
+		<h2>The Second Dream</h2>
 		<p>
 			<br/>
 			<div class="indent9"></div>.<br/>

@@ -70,7 +70,7 @@ function FarewellRecalled() {
 
 			<TextLink link={'/thedogdies'} class={"text-button text-button-odysseus"} text={"Odysseus"}/> 
 			| 
-			<TextLink link={'/penelopesshroud'} class={"text-button text-button-penelope"} text={"Penelope"}/><br/>
+			<TextLink link={'/penelopesshroudends'} class={"text-button text-button-penelope"} text={"Penelope"}/><br/>
 		</p>
 		<ScrollToTop/>
 		</div>

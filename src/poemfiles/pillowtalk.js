@@ -24,8 +24,6 @@ function PillowTalk() {
 			<br/>
 			Shedding the burden of time<br/>
 			they find each other again<br/>
-			in her wide enthralled eyes<br/>
-			in his warm fervent nods<br/>
 			<br/>
 			Penelope's words still wring his heart<br/>
 			but this time<br/>
@@ -37,7 +35,7 @@ function PillowTalk() {
 			tripping over each other<br/>
 			in his rush<br/>
 			he keeps revising them<br/>
-			and smiles like a newlywed when it makes her laugh<br/>
+			and smiles when it makes her laugh<br/>
 			<br/>
 			The air is busy with gods tonight<br/>
 			machinating a sequel to the last twenty years<br/>
