@@ -1,9 +1,5 @@
 import React from 'react'
-import CycleSpan from "../components/CycleSpan";
-import StopCycleSpan from "../components/StopCycleSpan";
-import {Link} from 'react-router-dom'
 import TextLink from "../components/TextLink";
-import NavBar from "../components/NavBar";
 import ScrollToTop from "../components/ScrollToTop"
 
 function Nausikaa() {
@@ -38,11 +34,15 @@ function Nausikaa() {
 			This would make the perfect story<br/>
 			to someday tell her grandchildren<br/>
 			<br/>
-			<TextLink link={'/calypso'} class={"text-button text-button-odysseus"} text={"←"}/> <div class="indent"> </div> <TextLink link={'/demodokos'} class={"text-button text-button-odysseus"} text={"→"}/>
+			<TextLink link={'/calypso'} class={"text-button text-button-odysseus"} text={"←"}/> 
+			<div class="indent"> </div> 
+			<TextLink link={'/act-ii'} class={"text-button text-button-odysseus"} text={"⌂"}/>
+			<div class="indent"> </div>
+			<TextLink link={'/demodokos'} class={"text-button text-button-odysseus"} text={"→"}/><br/>
+			<br/>
 
 		</p>
 		<ScrollToTop/>
-		<NavBar/>
 		</div>
 	)
 }

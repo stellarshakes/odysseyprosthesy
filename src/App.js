@@ -53,6 +53,9 @@ import NightOwls from './poemfiles/nightowls';
 import PillowTalk from './poemfiles/pillowtalk';
 import Laertes from './poemfiles/laertes';
 import SomeoneElsesMemories from './poemfiles/someoneelsesmemories';
+import AGoodOmen from './poemfiles/agoodomen';
+import ActI from './poemfiles/acti';
+import ActIII from './poemfiles/actiii';
 
 import IntroPage from "./components/introPage";
 import Main from './poemfiles/main';
@@ -328,9 +331,25 @@ function App() {
                         <SomeoneElsesMemories/>
                     </div>
                 </Route>
+                <Route path={'/agoodomen'}>
+                    <div className={"poemContainer"}>
+                        <AGoodOmen/>
+                    </div>
+                </Route>
+                <Route path={'/act-i'}>
+                    <div className={"poemContainer"}>
+                        <ActI/>
+                    </div>
+                </Route>
                 <Route path={'/act-ii'}>
                     <div className={"poemContainer"}>
                         <ScrollRestore />
+                        <Main/>
+                    </div>
+                </Route>
+                <Route path={'/act-iii'}>
+                    <div className={"poemContainer"}>
+                        <ActIII/>
                         <Main/>
                     </div>
                 </Route>

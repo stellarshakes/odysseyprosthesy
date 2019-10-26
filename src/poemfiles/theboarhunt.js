@@ -13,7 +13,7 @@ function TheBoarHunt() {
 		<p>
 			I remember one day<br/>
 			<br/>
-			My brother had returned<br/>
+			My brother had returned to Ithaki<br/>
 			from a long voyage<br/>
 			to visit family<br/>
 			<br/>

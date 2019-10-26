@@ -3,7 +3,6 @@ import CycleSpan from "../components/CycleSpan";
 import StopCycleSpan from "../components/StopCycleSpan";
 import {Link} from 'react-router-dom'
 import TextLink from "../components/TextLink";
-import NavBar from "../components/NavBar";
 import ScrollToTop from "../components/ScrollToTop"
 
 function TheSirens() {
@@ -45,7 +44,7 @@ function TheSirens() {
 			<CycleSpan entries={["research to be done","music to be spun","knowledge to be sung"]}/><br/>
 			<br/>
 
-			TextLink link={'/teiresiasprophecy'} class={"text-button text-button-odysseus"} text={"←"}/> 
+			<TextLink link={'/teiresiasprophecy'} class={"text-button text-button-odysseus"} text={"←"}/> 
 			<div class="indent"> </div> 
 			<TextLink link={'/act-ii'} class={"text-button text-button-odysseus"} text={"⌂"}/>
 			<div class="indent"> </div> 

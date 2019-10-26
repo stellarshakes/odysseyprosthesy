@@ -1,9 +1,7 @@
 import React from 'react'
 import CycleSpan from "../components/CycleSpan";
 import StopCycleSpan from "../components/StopCycleSpan";
-import {Link} from 'react-router-dom'
 import TextLink from "../components/TextLink";
-import NavBar from "../components/NavBar";
 import ScrollToTop from "../components/ScrollToTop"
 
 function Circe() {
@@ -140,7 +138,6 @@ function Circe() {
 
 		</p>
 		<ScrollToTop/>
-		<NavBar/>
 		</div>
 	)
 }

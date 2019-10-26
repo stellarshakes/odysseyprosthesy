@@ -317,3 +317,8 @@ td {
   padding-left: 10px;
   padding-right: 10px;
 }
+
+.acts {
+  align-self: center;
+  padding-top: 200px;
+}

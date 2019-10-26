@@ -77,7 +77,7 @@ function Interview() {
 			"With you if you would have me again"]}/>
 			</i></div><br/>
 			<br/>
-			Shall I obey the <TextLink link={'/theseconddream'} class={"text-button text-button-odysseus"} text={"gods' omen"}/> and remarry?<br/>
+			Shall I obey the <TextLink link={'/agoodomen'} class={"text-button text-button-odysseus"} text={"gods' omen"}/> and remarry?<br/>
 			<br/>
 			<div className='blockquote'><i>
 			<CycleSpan entries={["There is no longer any need",

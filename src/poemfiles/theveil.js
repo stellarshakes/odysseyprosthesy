@@ -2,7 +2,7 @@ import React from 'react'
 import CycleSpan from "../components/CycleSpan";
 import StopCycleSpan from "../components/StopCycleSpan";
 import {Link} from 'react-router-dom'
-import NavBar from "../components/NavBar";
+import TextLink from "../components/TextLink";
 import ScrollToTop from "../components/ScrollToTop"
 
 function TheVeil() {
@@ -34,7 +34,7 @@ function TheVeil() {
                 <br/>
                 Father, extinguish the darkness<br/>
                 send him uncovered to<br/>
-                <CycleSpan entries={["Penelope, who kneels before blind gods",
+                <CycleSpan entries={["Penelope, who kneels for blind gods",
                     "Telemachos, whose father is absence",
                     "Argos, who lives with wretched resolution"]}/><br/>
                 <br/>
@@ -43,9 +43,8 @@ function TheVeil() {
                 <i>The Daughter of Endurance will give in:<br/>
                     Odysseus' voyage must begin.<br/></i>
                 <br/>
-                <Link to={"/phemios"}>
-                    →
-                </Link>
+                <TextLink link={'/phemios'} class={"text-button text-button-odysseus"} text={"→"}/><br/>
+                <br/>
             </p>
             <ScrollToTop/>
         </div>

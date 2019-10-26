@@ -1,4 +1,5 @@
 import React from 'react'
+import TextLink from "../components/TextLink";
 import ScrollToTop from "../components/ScrollToTop"
 
 function Odysseus() {
@@ -33,7 +34,14 @@ function Odysseus() {
                 and I'm coming home<br/>
                 <br/>
                 with the tang of bronze in my eyes<br/>
-                and a vacant prison in my hands
+                and a vacant prison in my hands<br/>
+                <br/>
+                <TextLink link={'/halithersesprophecy'} class={"text-button text-button-odysseus"} text={"←"}/> 
+                <div class="indent"> </div> 
+                <TextLink link={'/act-ii'} class={"text-button text-button-odysseus"} text={"⌂"}/>
+                <div class="indent"> </div> 
+                <TextLink link={'/babytelemachos'} class={"text-button text-button-odysseus"} text={"→"}/><br/>
+                <br/>
             </p>
             <ScrollToTop/>
         </div>

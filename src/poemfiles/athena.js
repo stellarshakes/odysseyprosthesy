@@ -7,7 +7,7 @@ import ScrollToTop from "../components/ScrollToTop"
 
 function Athena() {
 	return (
-		<div className='poem Athena setOdysseus setTelemachos'>
+		<div className='poem Athena'>
 		<h2>Athena at the Battle in the Hall</h2>
 		<p>
 			Crouched high upon a ceiling beam<br/>

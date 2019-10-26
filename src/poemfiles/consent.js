@@ -1,6 +1,5 @@
 import React from 'react'
 import TextLink from "../components/TextLink";
-import NavBar from "../components/NavBar";
 import ScrollToTop from "../components/ScrollToTop"
 
 function Consent() {
@@ -49,7 +48,7 @@ function Consent() {
 			<a className='hovertext' title='in the night, he lied in silence'>
 			In the night, he laid with the goddess
 			</a><br/>
-			<a className='hovertext' title='in the day, he cried for the nights'>
+			<a className='hovertext' title='in the day, he cried at the nights'>
 			In the day, he cried for Penelope
 			</a><br/>
 			<br/>
@@ -62,7 +61,6 @@ function Consent() {
 
 		</p>
 		<ScrollToTop/>
-		<NavBar/>
 		</div>
 	)
 }

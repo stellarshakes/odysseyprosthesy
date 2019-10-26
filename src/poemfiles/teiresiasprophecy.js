@@ -65,7 +65,7 @@ function TeiresiasProphecy() {
 			<br/>
 			his teeth were stained red with it<br/>
 			<br/>
-			TextLink link={'/aeaea'} class={"text-button text-button-odysseus"} text={"←"}/> 
+			<TextLink link={'/aeaea'} class={"text-button text-button-odysseus"} text={"←"}/> 
 			<div class="indent"> </div> 
 			<TextLink link={'/act-ii'} class={"text-button text-button-odysseus"} text={"⌂"}/>
 			<div class="indent"> </div> 

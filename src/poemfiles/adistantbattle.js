@@ -7,7 +7,7 @@ import ScrollToTop from "../components/ScrollToTop"
 
 function ADistantBattle() {
 	return (
-		<div className='poem ADistantBattle setTelemachos setOdysseus'>
+		<div className='poem ADistantBattle'>
 		<h2>A <div className='invisible'>Distant</div> Battle</h2>
 		<p>
 			We are not to try the lock<br/>

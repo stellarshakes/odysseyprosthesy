@@ -79,8 +79,6 @@ function EurycleiasRecognition() {
 			and loose lips will not be what stops him<br/>
 			<br/>
 			
-			<blockquote>indented text</blockquote>
-
 			<TextLink link={'/interview'} class={"text-button text-button-odysseus"} text={"←"}/> 
 			<div class="indent"> </div> 
 			<TextLink link={'/act-ii'} class={"text-button text-button-odysseus"} text={"⌂"}/>

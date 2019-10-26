@@ -2,7 +2,6 @@ import React from 'react'
 import CycleSpan from "../components/CycleSpan";
 import {Link} from 'react-router-dom'
 import TextLink from "../components/TextLink";
-import NavBar from "../components/NavBar";
 import ScrollToTop from "../components/ScrollToTop"
 
 function Demodokos() {
@@ -81,11 +80,12 @@ function Demodokos() {
 			
 			<TextLink link={'/nausikaa'} class={"text-button text-button-odysseus"} text={"←"}/> 
 			<div class="indent"> </div> 
+			<TextLink link={'/act-ii'} class={"text-button text-button-odysseus"} text={"⌂"}/>
+			<div class="indent"> </div> 
 			<TextLink link={'/polyphemos'} class={"text-button text-button-odysseus"} text={"→"}/><br/>
 
 		</p>
 		<ScrollToTop/>
-		<NavBar/>
 		</div>
 	)
 }
