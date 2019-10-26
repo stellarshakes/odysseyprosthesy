@@ -44,6 +44,8 @@ import OdysseusProclamation from './poemfiles/odysseusproclamation';
 import ADistantBattle from './poemfiles/adistantbattle';
 import TheFairerExecution from './poemfiles/thefairerexecution';
 import WelcomeHome from './poemfiles/welcomehome';
+import EnoughisEnough from './poemfiles/enoughisenough';
+import Outburst from './poemfiles/outburst';
 
 import IntroPage from "./components/introPage";
 import Main from './poemfiles/main';
@@ -272,6 +274,16 @@ function App() {
                 <Route path={'/welcomehome'}>
                     <div className={"poemContainer"}>
                         <WelcomeHome/>
+                    </div>
+                </Route>
+                <Route path={'/enoughisenough'}>
+                    <div className={"poemContainer"}>
+                        <EnoughisEnough/>
+                    </div>
+                </Route>
+                <Route path={'/outburst'}>
+                    <div className={"poemContainer"}>
+                        <Outburst/>
                     </div>
                 </Route>
                 <Route path={'/act-ii'}>

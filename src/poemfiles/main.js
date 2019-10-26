@@ -1356,42 +1356,248 @@ function Main() {
 				</div>
 			</td>
 		</tr>
-
+		<tr>
+			<td className='bktwentythree threadt'>
+				<div className='threadttext'>
+					and<br/>
+					the black corruption<br/>
+					that invaded<br/>
+					our household<br/>
+					all those years ago<br/>
+					will end<br/>
+					with my hand<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					Eurycleia goes upstairs<br/>
+					and<br/>
+					when a different<br/>
+					set of footsteps<br/>
+					descend<br/>
+					<br/>
+					when<br/>
+					my mum and dad<br/>
+					are in the same room<br/>
+					<br/>
+					after twenty years<br/>
+					<br/>
+					they<br/>
+					say<br/>
+					nothing<br/>
+					<br/>
+					and<br/>
+					<TextLink link={'/enoughisenough'} class={"text-button text-button-telemachos"} text={"I can't believe it"}/><br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					I leave them<br/>
+					<br/>
+					I have<br/>
+					Ithaki<br/>
+					to tend to<br/>
+					instead<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+				</div>
+			</td>
+			<td className='bktwentythree threado threadp intersection' colspan='2'>
+				<div>
+					<br/>
+					then left<div class="indent10"></div><br/>
+					to<div class="indent7"></div><br/>
+					<div class="indent"></div>share<div class="indent6"></div>with<br/>
+					<div class="indent"></div>the<div class="indent3"></div>some<br/>
+					news<br/>
+					<div class="indent2"></div>of<br/>
+					I descend<div class="indent2"></div>my<br/>
+					the stairs<div class="indent4"></div>arrival<br/>
+					<br/>
+					<br/>
+					<div class="indent"></div>there he is<div class="indent7"></div>with Penelope<br/>
+					<br/>
+					<br/>
+					the lion-hearted hero of Hellas<div class="indent10"></div><br/>
+					my husband<div class="indent7"></div>She descended<br/>
+					my best friend<div class="indent6"></div>and I had no idea<br/>
+					<div class="indent8"></div>where to<br/>
+					looking<div class="indent5"></div>look<br/>
+					as<div class="indent5"></div><br/>
+					<div className='threadptext'><CycleSpan entries={["memory-perfect","detail-perfect","picture-perfect"]}/></div><div class="indent4"></div><br/>
+					as<div class="indent4"></div><br/>
+					the<div class="indent3"></div><br/>
+					day<div class="indent2"></div><br/>
+					we<div class="indent"></div>I<br/>
+					met<br/>
+					my<div class="indent"></div><br/>
+					wife<div class="indent2"></div><br/>
+					again<div class="indent2"></div>now<br/>
+					<div class="indent4"></div>tired<br/>
+					<div class="indent6"></div>life-worn<br/>
+					<br/>
+					<div class="indent8"></div>replete with return<br/>
+					<div class="indent8"></div>and restless with repletion<br/>
+					<br/>
+					<div class="indent8"></div>He must have questions<br/>
+					<br/>
+					<br/>
+					Later on<div class="indent2"></div>That night<br/>
+					<br/>
+					in<br/>
+					our<br/>
+					bed<div class="indent"></div>first<br/>
+					<div class="indent3"></div>private<br/>
+					<div class="indent"></div>full<div class="indent2"></div>moment<br/>
+					after<div class="indent"></div>in<br/>
+					twenty<br/>
+					years<br/>
+					<br/>
+					I<div class="indent"></div>I<br/>
+					told<div class="indent2"></div>tell<br/>
+					her<div class="indent3"></div>him<br/>
+					everything<div class="indent2"></div>everything<br/>
+					from the beginning<br/>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td className='bktwentyfour threadt'>
+				<div className='threadttext'>
+					Besides<br/>
+					there will<br/>
+					be<br/>
+					time<br/>
+					<br/>
+					I am home<br/>
+					with<br/>
+					both of my parents<br/>
+					<br/>
+					<br/>
+					<br/>
+					Why<br/>
+					should anyone<br/>
+					have to<br/>
+					leave<br/>
+					again?<br/>
+					<br/>
+					<br/>
+					<br/>
+					We have done<br/>
+					all<br/>
+					that the gods asked of us<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					We can rest<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+				</div>
+			</td>
+			<td className='bktwentyfour threadp'>
+				<div className='threadptext'>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					But<br/>
+					our story<br/>
+					has not yet<br/>
+					wound up<br/>
+					<br/>
+					it continues<br/>
+					at the pace<br/>
+					of the gods<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					hard<br/>
+					fast<br/>
+					relentless<br/>
+					<br/>
+				</div>
+			</td>
+			<td className='bktwentyfour threado'>
+				<div className='threadotext'>
+					<br/>
+					<br/>
+					I had<br/>
+					ample time<br/>
+					the next<br/>
+					day<br/>
+					to visit<br/>
+					my father<br/>
+					to hold him<br/>
+					to wipe his tears<br/>
+					<br/>
+					but<br/>
+					the gods<br/>
+					were pulling<br/>
+					at my strings<br/>
+					again<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					It will be time<br/>
+					to leave<br/>
+					for another story<br/>
+					again<br/>
+					<br/>
+					somehow<br/>
+					<br/>
+					<br/>
+					<br/>
+					and too soon<br/>
+				</div>
+			</td>
+		</tr>
 	</table>
 			
 
 		<br/>
 		<br/>
 		<br/>
-		Template for 3-cell rows<br/>
-		TEST 2
-		
-
-		<tr>
-			<td className='bknumber threadinitial'>
-				<div className='threaditext'>
-					Text
-				</div>
-			</td>
-			<td className='bknumber threadinitial'>
-				<div className='threaditext'>
-					Text
-				</div>
-			</td>
-			<td className='bknumber threadinitial'>
-				<div className='threaditext'>
-					Text
-				</div>
-			</td>
-		</tr>
-
-		<p>
 
 			<br/>
 			<div class="indent"></div>
 			<TextLink link={'/subpoem'} class={"text-button text-button-character"} text={"verse"}/>
-			
-		</p>
+
 		</div>
 	)
 }
