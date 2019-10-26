@@ -25,6 +25,11 @@
     padding-right: 280px;
 }
 
+.heart {
+  align-self: center;
+  color: red;
+}
+
 .poem {
     align-self: start;
 	padding-top: 80px;

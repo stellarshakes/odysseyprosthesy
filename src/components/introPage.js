@@ -16,6 +16,9 @@ function IntroPage() {
 		        </div>
 		        
 		        <TextLink link={'/act-ii'} class={"text-button"} text={"the page turn"}/><br/>
+		        <div className='heart'>
+		        	<TextLink link={'/acknowledgements'} class={"text-button"} text={"❤"}/>
+		        </div>
 		    </div>
 	        </div>
     )
