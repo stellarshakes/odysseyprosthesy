@@ -34,7 +34,7 @@ function Athena() {
 
 			<TextLink link={'/odysseusproclamation'} class={"text-button text-button-odysseus"} text={"Odysseus"}/> 
 			| 
-			<TextLink link={'/adistantbattle'} class={"text-button text-button-telemachos"} text={"Telemcahos"}/><br/>
+			<TextLink link={'/adistantbattle'} class={"text-button text-button-telemachos"} text={"Telemachos"}/><br/>
 			<br/>
 			
 		</p>
