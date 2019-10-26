@@ -1422,7 +1422,7 @@ function Main() {
 					to<div class="indent7"></div><br/>
 					<div class="indent"></div>share<div class="indent6"></div>with<br/>
 					<div class="indent"></div>the<div class="indent3"></div>some<br/>
-					news<br/>
+					<TextLink link={'/eurycleiadeliversthenews'} class={"text-button"} text={"news"}/><br/>
 					<div class="indent2"></div>of<br/>
 					I descend<div class="indent2"></div>my<br/>
 					the stairs<div class="indent4"></div>arrival<br/>
@@ -1442,7 +1442,7 @@ function Main() {
 					the<div class="indent3"></div><br/>
 					day<div class="indent2"></div><br/>
 					we<div class="indent"></div>I<br/>
-					met<br/>
+					<TextLink link={'/reunion'} class={"text-button"} text={"met"}/><br/>
 					my<div class="indent"></div><br/>
 					wife<div class="indent2"></div><br/>
 					again<div class="indent2"></div>now<br/>
@@ -1470,7 +1470,7 @@ function Main() {
 					told<div class="indent2"></div>tell<br/>
 					her<div class="indent3"></div>him<br/>
 					everything<div class="indent2"></div>everything<br/>
-					from the beginning<br/>
+					<TextLink link={'/pillowtalk'} class={"text-button"} text={"from the beginning"}/><br/>
 				</div>
 			</td>
 		</tr>
@@ -1558,7 +1558,7 @@ function Main() {
 					the next<br/>
 					day<br/>
 					to visit<br/>
-					my father<br/>
+					<TextLink link={'/laertes'} class={"text-button text-button-odysseus"} text={"my father"}/><br/>
 					to hold him<br/>
 					to wipe his tears<br/>
 					<br/>
@@ -1593,11 +1593,8 @@ function Main() {
 		<br/>
 		<br/>
 		<br/>
-
-			<br/>
-			<div class="indent"></div>
-			<TextLink link={'/subpoem'} class={"text-button text-button-character"} text={"verse"}/>
-
+		<br/>
+		<br/>
 		</div>
 	)
 }

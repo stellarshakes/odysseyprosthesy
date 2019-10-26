@@ -46,6 +46,12 @@ import TheFairerExecution from './poemfiles/thefairerexecution';
 import WelcomeHome from './poemfiles/welcomehome';
 import EnoughisEnough from './poemfiles/enoughisenough';
 import Outburst from './poemfiles/outburst';
+import EurycleiaDeliverstheNews from './poemfiles/eurycleiadeliversthenews';
+import Reunion from './poemfiles/reunion';
+import TheMarriageBed from './poemfiles/themarriagebed';
+import NightOwls from './poemfiles/nightowls';
+import PillowTalk from './poemfiles/pillowtalk';
+import Laertes from './poemfiles/laertes';
 
 import IntroPage from "./components/introPage";
 import Main from './poemfiles/main';
@@ -284,6 +290,36 @@ function App() {
                 <Route path={'/outburst'}>
                     <div className={"poemContainer"}>
                         <Outburst/>
+                    </div>
+                </Route>
+                <Route path={'/eurycleiadeliversthenews'}>
+                    <div className={"poemContainer"}>
+                        <EurycleiaDeliverstheNews/>
+                    </div>
+                </Route>
+                <Route path={'/reunion'}>
+                    <div className={"poemContainer"}>
+                        <Reunion/>
+                    </div>
+                </Route>
+                <Route path={'/themarriagebed'}>
+                    <div className={"poemContainer"}>
+                        <TheMarriageBed/>
+                    </div>
+                </Route>
+                <Route path={'/nightowls'}>
+                    <div className={"poemContainer"}>
+                        <NightOwls/>
+                    </div>
+                </Route>
+                <Route path={'/pillowtalk'}>
+                    <div className={"poemContainer"}>
+                        <PillowTalk/>
+                    </div>
+                </Route>
+                <Route path={'/laertes'}>
+                    <div className={"poemContainer"}>
+                        <Laertes/>
                     </div>
                 </Route>
                 <Route path={'/act-ii'}>
