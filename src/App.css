@@ -18,6 +18,13 @@
   }
 }
 
+.acknowledgements {
+    align-self: start;
+    padding-top: 80px;
+    padding-left: 280px;
+    padding-right: 280px;
+}
+
 .poem {
     align-self: start;
 	padding-top: 80px;

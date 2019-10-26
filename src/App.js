@@ -56,6 +56,7 @@ import SomeoneElsesMemories from './poemfiles/someoneelsesmemories';
 import AGoodOmen from './poemfiles/agoodomen';
 import ActI from './poemfiles/acti';
 import ActIII from './poemfiles/actiii';
+import Acknowledgements from './poemfiles/acknowledgements';
 
 import IntroPage from "./components/introPage";
 import Main from './poemfiles/main';
@@ -341,15 +342,19 @@ function App() {
                         <ActI/>
                     </div>
                 </Route>
-                <Route path={'/act-ii'}>
-                    <div className={"poemContainer"}>
-                        <ScrollRestore />
-                        <Main/>
-                    </div>
-                </Route>
                 <Route path={'/act-iii'}>
                     <div className={"poemContainer"}>
                         <ActIII/>
+                    </div>
+                </Route>
+                <Route path={'/acknowledgements'}>
+                    <div className={"poemContainer"}>
+                        <Acknowledgements/>
+                    </div>
+                </Route>
+                <Route path={'/act-ii'}>
+                    <div className={"poemContainer"}>
+                        <ScrollRestore />
                         <Main/>
                     </div>
                 </Route>
