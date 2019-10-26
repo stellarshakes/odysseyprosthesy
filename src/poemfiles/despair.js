@@ -5,11 +5,11 @@ import ScrollToTop from "../components/ScrollToTop"
 
 function Despair() {
         return (
-        <div className='poem despair setPenelope'>
+        <div className='poem despair setTelemachos'>
         	<h2>Despair</h2>
             <p>
             	My noble father<br/>
-                <TextLink link={'/babytelemachos'} class={"text-button"} text={"if he ever was"}/><br/>
+                <TextLink link={'/someoneelsesmemories'} class={"text-button text-button-telemachos"} text={"if he ever was"}/><br/>
 				lies somewhere in the sea, lies somewhere dead<br/>
 				and in his place are suitors<br/>
 				rich fine young men who said<br/>
@@ -36,7 +36,7 @@ function Despair() {
 				<br/>
 				I really need him home<br/>
 				<br/>
-				<TextLink link={'/telemachosleaves'} class={"text-button"} text={"→"}/><br/>
+				<TextLink link={'/telemachosleaves'} class={"text-button text-button-telemachos"} text={"→"}/><br/>
             </p>
             <ScrollToTop/>
         </div>

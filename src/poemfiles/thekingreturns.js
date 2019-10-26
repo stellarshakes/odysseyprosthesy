@@ -8,7 +8,7 @@ import ScrollToTop from "../components/ScrollToTop"
 function TheKingReturns() {
 	return (
 		<div className='poem TheKingReturns setTelemachos'>
-		<h2>Title</h2>
+		<h2>The King Returns</h2>
 		<p>
 			<a className='hovertext' title='my dad'>
 			The trickster king

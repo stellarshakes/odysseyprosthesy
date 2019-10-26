@@ -4,9 +4,9 @@ import {Link} from 'react-router-dom'
 import TextLink from "../components/TextLink";
 import ScrollToTop from "../components/ScrollToTop"
 
-function BabyTelemachos() {
+function SomeoneElsesMemories() {
         return (
-        <div className='poem babytelemachos setOdysseus'>
+        <div className='poem SomeoneElsesMemories setOdysseus'>
             <h2>Baby Telemachos</h2>
             <p>
                 your mother last let me hold you<br/>
@@ -38,11 +38,7 @@ function BabyTelemachos() {
                 twenty years in the making<br/>
                 and not know it<br/>
                 <br/>
-                <TextLink link={'/odysseus'} class={"text-button text-button-odysseus"} text={"←"}/> 
-                <div class="indent"> </div> 
-                <TextLink link={'/act-ii'} class={"text-button text-button-odysseus"} text={"⌂"}/>
-                <div class="indent"> </div> 
-                <TextLink link={'/farewell'} class={"text-button text-button-odysseus"} text={"→"}/><br/>
+                <TextLink link={'/despair'} class={"text-button text-button-telemachos"} text={"←"}/><br/>
                 <br/>
             </p>
             <ScrollToTop/>
@@ -50,4 +46,4 @@ function BabyTelemachos() {
     )
 }
 
-export default BabyTelemachos
+export default SomeoneElsesMemories

@@ -52,6 +52,7 @@ import TheMarriageBed from './poemfiles/themarriagebed';
 import NightOwls from './poemfiles/nightowls';
 import PillowTalk from './poemfiles/pillowtalk';
 import Laertes from './poemfiles/laertes';
+import SomeoneElsesMemories from './poemfiles/someoneelsesmemories';
 
 import IntroPage from "./components/introPage";
 import Main from './poemfiles/main';
@@ -320,6 +321,11 @@ function App() {
                 <Route path={'/laertes'}>
                     <div className={"poemContainer"}>
                         <Laertes/>
+                    </div>
+                </Route>
+                <Route path={'/someoneelsesmemories'}>
+                    <div className={"poemContainer"}>
+                        <SomeoneElsesMemories/>
                     </div>
                 </Route>
                 <Route path={'/act-ii'}>

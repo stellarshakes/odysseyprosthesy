@@ -1,4 +1,5 @@
 import React from 'react'
+import TextLink from "../components/TextLink";
 import ScrollToTop from "../components/ScrollToTop"
 
 function TelemachosLeaves() {
@@ -29,7 +30,14 @@ function TelemachosLeaves() {
                 stories<br/>
                 or a hero<br/>
                 <br/>
-                I must bring something home
+                I must bring something home<br/>
+                <br/>
+                <TextLink link={'/despair'} class={"text-button text-button-telemachos"} text={"←"}/> 
+                <div class="indent"> </div> 
+                <TextLink link={'/act-ii'} class={"text-button text-button-telemachos"} text={"⌂"}/>
+                <div class="indent"> </div> 
+                <TextLink link={'/helen'} class={"text-button text-button-telemachos"} text={"→"}/><br/>
+                <br/>
             </p>
             <ScrollToTop/>
         </div>

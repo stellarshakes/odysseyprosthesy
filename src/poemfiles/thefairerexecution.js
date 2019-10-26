@@ -21,7 +21,7 @@ function TheFairerExecution() {
 			ripening yet<br/>
 			in the profane light that looks down on them<br/>
 			<div className='blockquote'>
-			relentless voyeur</div><br/>
+			relentless voyeur</div>
 			and draws gaze upon gaze<br/>
 			<br/>
 			In their wine-purple cheeks<br/>
