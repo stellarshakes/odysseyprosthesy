@@ -35,7 +35,14 @@ function HalithersesProphecy() {
 				<br/>
 				Today<br/>
 				two little birds visited<br/>
-				screaming bloody vindications
+				screaming bloody vindications<br/>
+				<br/>
+				<TextLink link={'/theveil'} class={"text-button text-button-odysseus"} text={"←"}/> 
+				<div class="indent"> </div> 
+				<TextLink link={'/act-ii'} class={"text-button text-button-odysseus"} text={"⌂"}/>
+				<div class="indent"> </div> 
+				<TextLink link={'/odysseus'} class={"text-button text-button-odysseus"} text={"→"}/><br/>
+				<br/>
             </p>
             <ScrollToTop/>
         </div>

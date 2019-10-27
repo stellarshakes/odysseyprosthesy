@@ -3,7 +3,6 @@ import CycleSpan from "../components/CycleSpan";
 import StopCycleSpan from "../components/StopCycleSpan";
 import {Link} from 'react-router-dom'
 import TextLink from "../components/TextLink";
-import NavBar from "../components/NavBar";
 import ScrollToTop from "../components/ScrollToTop"
 
 function FarewellRecalled() {
@@ -71,6 +70,7 @@ function FarewellRecalled() {
 			<TextLink link={'/thedogdies'} class={"text-button text-button-odysseus"} text={"Odysseus"}/> 
 			| 
 			<TextLink link={'/penelopesshroudends'} class={"text-button text-button-penelope"} text={"Penelope"}/><br/>
+			<br/>
 		</p>
 		<ScrollToTop/>
 		</div>

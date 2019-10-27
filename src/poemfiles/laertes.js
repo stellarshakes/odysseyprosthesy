@@ -25,7 +25,8 @@ function Laertes() {
 			
 			<TextLink link={'/pillowtalk'} class={"text-button text-button-odysseus"} text={"←"}/>
 			<div class="indent"> </div> 
-			<TextLink link={'/act-ii'} class={"text-button text-button-odysseus"} text={"⌂"}/>
+			<TextLink link={'/act-ii'} class={"text-button text-button-odysseus"} text={"⌂"}/><br/>
+			<br/>
 		</p>
 		<ScrollToTop/>
 		</div>

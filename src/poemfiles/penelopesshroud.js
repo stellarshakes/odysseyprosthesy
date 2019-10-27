@@ -1,7 +1,6 @@
 import React from 'react'
 import CycleSpan from "../components/CycleSpan";
 import {Link} from 'react-router-dom'
-import NavBar from "../components/NavBar";
 import TextLink from "../components/TextLink";
 import ScrollToTop from "../components/ScrollToTop"
 

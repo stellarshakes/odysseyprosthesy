@@ -97,7 +97,7 @@ function AGoodOmen() {
 			restless<br/>
 			revenant<br/>
 			ready<br/>
-			    <div class="indent4">&emsp;</div>"<br/></div>
+			<div class="indent4">&emsp;</div>"<br/></div>
 			<div class="indent6"></div>.<br/>
 			<div class="indent4"></div>.<br/>
 			<div class="indent3"></div>.<br/>

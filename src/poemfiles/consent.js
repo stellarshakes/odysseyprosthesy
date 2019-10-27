@@ -57,7 +57,8 @@ function Consent() {
 			</a><br/>
 			<br/>
 
-			<TextLink link={'/calypso'} class={"text-button text-button-odysseus"} text={"←"}/>
+			<TextLink link={'/calypso'} class={"text-button text-button-odysseus"} text={"←"}/><br/>
+			<br/>
 
 		</p>
 		<ScrollToTop/>

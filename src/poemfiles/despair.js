@@ -37,6 +37,7 @@ function Despair() {
 				I really need him home<br/>
 				<br/>
 				<TextLink link={'/telemachosleaves'} class={"text-button text-button-telemachos"} text={"→"}/><br/>
+				<br/>
             </p>
             <ScrollToTop/>
         </div>

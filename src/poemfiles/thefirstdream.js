@@ -3,8 +3,6 @@ import {Link} from 'react-router-dom'
 import TextLink from "../components/TextLink";
 import ScrollToTop from "../components/ScrollToTop"
 
-/*still needs editing for space*/
-
 function TheFirstDream() {
 	return (
 		<div className='poem thefirstdream setPenelope'>
