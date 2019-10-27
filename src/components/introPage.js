@@ -14,7 +14,10 @@ function IntroPage() {
 		        	the Muse's turn
 
 		        </div>
-		        
+		        <div>
+		        <br/>&emsp;
+		        <br/>
+		        </div>
 		        <TextLink link={'/act-ii'} class={"text-button"} text={"the page turn"}/><br/>
 		        <div className='heart'>
 		        	<TextLink link={'/acknowledgements'} class={"text-button"} text={"❤"}/>
