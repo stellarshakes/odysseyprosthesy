@@ -1,6 +1,5 @@
 import React from 'react'
 import TextLink from "../components/TextLink";
-import {Link} from 'react-router-dom'
 import ScrollToTop from "../components/ScrollToTop"
 
 function Despair() {

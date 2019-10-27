@@ -1,5 +1,5 @@
 import React from 'react'
-import NavBar from "../components/NavBar";
+import TextLink from "../components/TextLink";
 import ScrollToTop from "../components/ScrollToTop"
 
 function HalithersesProphecy() {

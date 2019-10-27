@@ -1,6 +1,5 @@
 import React from 'react'
 import CycleSpan from "../components/CycleSpan";
-import StopCycleSpan from "../components/StopCycleSpan";
 import TextLink from "../components/TextLink";
 import ScrollToTop from "../components/ScrollToTop"
 
