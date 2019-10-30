@@ -555,7 +555,7 @@ function Main() {
 					<br/>
 					<br/>
 					I did not learn<br/>
-					what I had set out<br/>
+					<CycleSpan entries={["what I was determined","what I had","what I had set out"]}/><br/>
 					to learn<br/>
 					<br/>
 					<br/>

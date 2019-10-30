@@ -42,6 +42,8 @@ function TheVeil() {
                 <i>The Daughter of Endurance will give in:<br/>
                     Odysseus' voyage must begin.<br/></i>
                 <br/>
+                <TextLink link={'/act-ii'} class={"text-button text-button-odysseus"} text={"⌂"}/>
+                <div class="indent"> </div> 
                 <TextLink link={'/halithersesprophecy'} class={"text-button text-button-odysseus"} text={"→"}/><br/>
                 <br/>
             </p>

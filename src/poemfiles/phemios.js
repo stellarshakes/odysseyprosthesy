@@ -39,6 +39,8 @@ function Phemios() {
 			but I will not find it here<br/>
 			<br/>
 
+			<TextLink link={'/act-ii'} class={"text-button text-button-penelope"} text={"⌂"}/>
+			<div class="indent"> </div> 
 			<TextLink link={'/penelopesshroud'} class={"text-button text-button-penelope"} text={"→"}/><br/>
 			<br/>
 			</p>

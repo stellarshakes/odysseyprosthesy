@@ -35,6 +35,8 @@ function Despair() {
 				<br/>
 				I really need him home<br/>
 				<br/>
+				<TextLink link={'/act-ii'} class={"text-button text-button-telemachos"} text={"⌂"}/>
+				<div class="indent"> </div> 
 				<TextLink link={'/telemachosleaves'} class={"text-button text-button-telemachos"} text={"→"}/><br/>
 				<br/>
             </p>
