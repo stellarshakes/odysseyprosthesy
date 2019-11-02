@@ -47,6 +47,7 @@ function Polyphemos() {
 			and the men suffer the final blow<br/>
 			<br/>
 			Spitting bile and spite<br/>
+			brash from the confident shore<br/>
 			the Cyclops delivers his malediction<br/>
 			<br/>
 			Wicked words with wicked power<br/>

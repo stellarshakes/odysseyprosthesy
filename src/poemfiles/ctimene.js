@@ -13,6 +13,11 @@ function Ctimene() {
 			and see again the home I grew up in<br/>
 			without that tearful sting<br/>
 			<br/>
+			<div className='blockquote'><i>
+			When I was bought out of this nook of my childhood<br/>
+			my heart would not be bought out with me</i>
+			</div>
+			<br/>
 			It comes back to me in cupfuls<br/>
 			sackfuls<br/>
 			silver gobletfuls<br/>
@@ -29,9 +34,6 @@ function Ctimene() {
 			"You are better off spreading yourself<br/>
 			across the colours and lights of the world<br/>
 			that don't exist here"<br/>
-			<br/>
-			When I was bought out of this nook of my childhood<br/>
-			my heart would not be bought out with me<br/>
 			<br/>
 			My friends envied my luck<br/>
 			but I can almost recall their reckless joy<br/>

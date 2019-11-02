@@ -33,7 +33,7 @@ function OdysseusMeetsHisSon() {
 			in a sweep of his gaze<br/>
 			the piercing regard of a set of eyes<br/>
 			Odysseus has only ever looked through<br/>
-			not at<br/>
+			not felt the gaze of<br/>
 			<br/>
 			Craving to burst<br/>
 			<CycleSpan entries={["into song","into light","into bloom"]}/><br/>

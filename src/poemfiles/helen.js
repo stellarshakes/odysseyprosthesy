@@ -28,13 +28,13 @@ function Helen() {
 			have shaped her
 			</a><br/>
 			<br/>
-			<a className='hovertext' title='what trauma must it have been?'>
+			<a className='hovertext' title='what acrid trauma must it have been?'>
 			I notice her ready store
 			</a><br/>
 			<a className='hovertext' title='to send you drowning in drugs that numb'>
 			of those potions that numb
 			</a><br/>
-			<a className='hovertext' title='the pain of living'>
+			<a className='hovertext' title='the pang of living'>
 			men's sorrows
 			</a><br/>
 			<br/>

@@ -29,11 +29,14 @@ function Farewell() {
 			but its pierce was softer<br/>
 			and its focus fraying<br/>
 			<br/>
-			A rare tremor flooded<br/>
+			A rare tremor tugged<br/>
+			at the strings in<br/>
 			her right hand<br/>
-			visible to no one<br/>
+			visible to<br/>
+			no one<br/>
 			<br/>
-			Odysseus could only bring himself to take her wrist<br/>
+			Odysseus<br/>
+			could only bring himself to take her wrist<br/>
 			steady enough for both of them<br/>
 			warm with comfort<br/>
 			muslin-light<br/>
@@ -58,6 +61,7 @@ function Farewell() {
 			where his hand used to be<br/>
 			<br/>
 			Penelope bowed her head to nod<br/>
+			rested her gaze on the new loom<br/>
 			could not find the will to raise it again<br/>
 			<br/>
 			The tremor returned<br/>

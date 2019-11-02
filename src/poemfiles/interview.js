@@ -40,7 +40,7 @@ function Interview() {
 			<div className='blockquote'><i>
 			<CycleSpan entries={["Dry your eyes",
 			"He's on his way home",
-			"I miss you"]}/>
+			"You missed me"]}/>
 			</i></div><br/>
 			<br/>
 			He is returning?<br/>
@@ -48,7 +48,7 @@ function Interview() {
 			<div className='blockquote'><i>
 			<CycleSpan entries={["Yes",
 			"As we speak",
-			"I love you"]}/>
+			"You waited"]}/>
 			</i></div><br/>
 			<br/>
 			I still love him<br/>

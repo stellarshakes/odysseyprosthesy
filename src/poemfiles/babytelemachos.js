@@ -19,7 +19,7 @@ function BabyTelemachos() {
                 <br/>
                 the moment when your eyes<br/>
                 big and blue as the prows of our ships<br/>
-                washed over me<br/>
+                floated over me<br/>
                 the milk on your shallow breath<br/>
                 was a private infinity<br/>
                 ruptured by<br/>
